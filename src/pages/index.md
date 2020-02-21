@@ -20,28 +20,15 @@ intro:
     - image: /img/coffee-gear.png
       text: >
         Open educational resources (OERs) are learning materials that can be modified and enhanced because their creators have given others permission to do so. The individuals or organizations that create OERs—which can include materials like presentation slides, podcasts, syllabi, images, lesson plans, lecture videos, maps, worksheets, and even entire textbooks—waive some (if not all) of the copyright associated with their works, typically via legal tools like Creative Commons licenses, so others can freely access, reuse, translate, and modify them.
-
-        https://opensource.com/resources/what-open-education
     - image: /img/tutorials.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Applying open licenses to educational materials allows educators to collaborate when building materials specifically differentiated for their students. For example, a mathematics teacher might acquire openly-licensed word problems for her students, but re-write the exercises to include language that is more geographically specific or demographically relevant. In turn, she can share her modified problems with others who may wish to use them.
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Massive open online courses (MOOCs) are online courses accessible to anyone with a computer and access to the Internet. People call these courses "massive" because their enrollment is open to more students than traditional educational institutions might permit—meaning that hundreds (even thousands) of students might participate in a particular MOOC. Today, many colleges and universities have joined organizations committed to providing high-quality education through MOOCs.
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    オープンエデュケーション・ジャパン（Open Education Japan）は日本オープンコースウェアコンソーシアム（JOCW）を発展的に解消し、日本におけるオープンエデュケーションの推進およびオープン教育リソース（Open Educational Resoource: OER）の普及・促進に寄与することを目的に設立された団体です。大学や企業等で構成される会員団体の間でオープンエデュケーションに関する情報共有を図るほか、国際的なオープンエデュケーション普及団体であるOpen Education Globalとも連携しつつ、世界的なオープンエデュケーションの活動に参画しつつ、国内に向けた情報提供を行っています。オープンエデュケーション・ジャパンはOpen Education Globalの加盟団体です。
 main:
   heading: Great coffee with no compromises
   description: >
