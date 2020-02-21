@@ -14,15 +14,23 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >
+        What is open education?
+
+        Open education is a philosophy about the way people should produce, share, and build on knowledge.
+        
+        Proponents of open education believe everyone in the world should have access to high-quality educational experiences and resources, and they work to eliminate barriers to this goal. Such barriers might include high monetary costs, outdated or obsolete materials, and legal mechanisms that prevent collaboration among scholars and educators.
+        
+        Promoting collaboration is central to open education. As the Open Education Consortium says: "sharing is probably the most basic characteristic of education: education is sharing knowledge, insights and information with others, upon which new knowledge, skills, ideas and understanding can be built.
+
+        https://opensource.com/resources/what-open-education
+
+    - image: /img/coffee-gear.png
+      text: >
         What are open educational resources?
 
         Open educational resources (OERs) are learning materials that can be modified and enhanced because their creators have given others permission to do so. The individuals or organizations that create OERs—which can include materials like presentation slides, podcasts, syllabi, images, lesson plans, lecture videos, maps, worksheets, and even entire textbooks—waive some (if not all) of the copyright associated with their works, typically via legal tools like Creative Commons licenses, so others can freely access, reuse, translate, and modify them.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+
+        https://opensource.com/resources/what-open-education
     - image: /img/tutorials.png
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
