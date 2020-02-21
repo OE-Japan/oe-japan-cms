@@ -14,11 +14,9 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        What are open educational resources?
+
+        Open educational resources (OERs) are learning materials that can be modified and enhanced because their creators have given others permission to do so. The individuals or organizations that create OERs—which can include materials like presentation slides, podcasts, syllabi, images, lesson plans, lecture videos, maps, worksheets, and even entire textbooks—waive some (if not all) of the copyright associated with their works, typically via legal tools like Creative Commons licenses, so others can freely access, reuse, translate, and modify them.
     - image: /img/coffee-gear.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
