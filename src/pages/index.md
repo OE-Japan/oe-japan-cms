@@ -3,7 +3,7 @@ templateKey: index-page
 title: Open Education Japan
 image: /img/home-jumbotron.jpg
 heading: Open Education Japan
-subheading: Support sustainable open education
+subheading: We foster open education and open educational materials.
 mainpitch:
   title: オープンエデュケーション・ジャパン（Open Education Japan）
   description: >
