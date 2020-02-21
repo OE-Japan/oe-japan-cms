@@ -5,17 +5,11 @@ image: /img/home-jumbotron.jpg
 heading: Open Education Japan
 subheading: Support sustainable open education
 mainpitch:
-  title: Why Kaldi
+  title: オープンエデュケーション・ジャパン（Open Education Japan）
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    オープンエデュケーション・ジャパン（Open Education Japan）は日本オープンコースウェアコンソーシアム（JOCW）を発展的に解消し、日本におけるオープンエデュケーションの推進およびオープン教育リソース（Open Educational Resoource: OER）の普及・促進に寄与することを目的に設立された団体です。大学や企業等で構成される会員団体の間でオープンエデュケーションに関する情報共有を図るほか、国際的なオープンエデュケーション普及団体であるOpen Education Globalとも連携しつつ、世界的なオープンエデュケーションの活動に参画しつつ、国内に向けた情報提供を行っています。オープンエデュケーション・ジャパンはOpen Education Globalの加盟団体です。
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Open Education Japan (OE Japan) is an organization established to contribute to the promotion of open education and the dissemination and promotion of open educational resources (OER) in Japan by progressively dissolving the Japan Open Courseware Consortium (JOCW).  In addition to sharing information on open education among member organizations consisting of universities and companies, we participate in global open education activities in cooperation with Open Education Global, an international organization promoting open education, and provide information to the public in Japan.  OE Japan is a member of Open Education Global.
 intro:
   blurbs:
     - image: /img/coffee.png
