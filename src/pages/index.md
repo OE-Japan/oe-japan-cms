@@ -14,18 +14,16 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        Open education is a philosophy about the way people should produce, share, and build on knowledge.
-        Proponents of open education believe everyone in the world should have access to high-quality educational experiences and resources, and they work to eliminate barriers to this goal. Such barriers might include high monetary costs, outdated or obsolete materials, and legal mechanisms that prevent collaboration among scholars and educators.
-        Promoting collaboration is central to open education. As the Open Education Consortium says: "sharing is probably the most basic characteristic of education: education is sharing knowledge, insights and information with others, upon which new knowledge, skills, ideas and understanding can be built.
+        オープンエデュケーション（Open Education）とは、世界中のすべての人が質の高い教育経験と資源にアクセスできるようにすることで、人類の発展に貢献しようとする教育ムーブメントのことを指します。教育とは他者と知識、洞察、情報を共有することであり、その上に新しい知識、技能、アイデア、理解を構築することができる、という考えのもと「値の共有」を教育の最も基本的な特徴とする教育ムーブメントです。
     - image: /img/coffee-gear.png
       text: >
-        Open educational resources (OERs) are learning materials that can be modified and enhanced because their creators have given others permission to do so. The individuals or organizations that create OERs—which can include materials like presentation slides, podcasts, syllabi, images, lesson plans, lecture videos, maps, worksheets, and even entire textbooks—waive some (if not all) of the copyright associated with their works, typically via legal tools like Creative Commons licenses, so others can freely access, reuse, translate, and modify them.
+        オープン教材(Open Educational Resources : OERs)とは、教材の作成者が利用者に対し、その教材の変更や拡張の許可を与えてる学習資料のことをいいます。たとえば、プレゼンテーションのスライド、ポッドキャスト、シラバス、画像、レッスンプラン、講義ビデオ、地図、ワークシート、さらには教科書全体などが無償で利用できます。OERの作成者はクリエイティブ・コモンズ・ライセンスなどの合法的なツールを介して著作物に関連する著作権の一部もしくは全てを放棄するため、他の人々は自由にそれらにアクセスし、再利用し、翻訳し、修正することができます。
     - image: /img/tutorials.png
       text: >
-        Applying open licenses to educational materials allows educators to collaborate when building materials specifically differentiated for their students. For example, a mathematics teacher might acquire openly-licensed word problems for her students, but re-write the exercises to include language that is more geographically specific or demographically relevant. In turn, she can share her modified problems with others who may wish to use them.
+        オープンコースウェア（OpenCourseWare : OCW）とは、大学や大学院などの高等教育機関で正規に提供された教材を、インターネット上に無償で公開する活動のことをいいます。公開されているものはコースとして構成されており、テーマ別の内容に加えて、講義ビデオ、講義スケジュールや試験問題、評価ツールなどが含まれています。
     - image: /img/meeting-space.png
       text: >
-        Massive open online courses (MOOCs) are online courses accessible to anyone with a computer and access to the Internet. People call these courses "massive" because their enrollment is open to more students than traditional educational institutions might permit—meaning that hundreds (even thousands) of students might participate in a particular MOOC. Today, many colleges and universities have joined organizations committed to providing high-quality education through MOOCs.
+        大規模オープンオンラインコース（Massive Open Online Courses : MOOCs）とは、コンピュータとインターネットにアクセスできれば誰でも無償もしくは安価に利用できるオンライン講義のことです。日本では、一般社団法人日本オープンオンライン教育推進協議会(JMOOC)がオンラインで公開された無料の講座を提供しています。JMOOCの講座は一部のオプションを除き、修了証の取得まで無料で受講できます。
   heading: What we offer
   description: >
     オープンエデュケーション・ジャパン（Open Education Japan）は日本オープンコースウェアコンソーシアム（JOCW）を発展的に解消し、日本におけるオープンエデュケーションの推進およびオープン教育リソース（Open Educational Resoource: OER）の普及・促進に寄与することを目的に設立された団体です。大学や企業等で構成される会員団体の間でオープンエデュケーションに関する情報共有を図るほか、国際的なオープンエデュケーション普及団体であるOpen Education Globalとも連携しつつ、世界的なオープンエデュケーションの活動に参画しつつ、国内に向けた情報提供を行っています。オープンエデュケーション・ジャパンはOpen Education Globalの加盟団体です。
