@@ -27,20 +27,4 @@ intro:
   heading: What we offer
   description: >
     オープンエデュケーション・ジャパン（Open Education Japan）は日本オープンコースウェアコンソーシアム（JOCW）を発展的に解消し、日本におけるオープンエデュケーションの推進およびオープン教育リソース（Open Educational Resoource: OER）の普及・促進に寄与することを目的に設立された団体です。大学や企業等で構成される会員団体の間でオープンエデュケーションに関する情報共有を図るほか、国際的なオープンエデュケーション普及団体であるOpen Education Globalとも連携しつつ、世界的なオープンエデュケーションの活動に参画しつつ、国内に向けた情報提供を行っています。オープンエデュケーション・ジャパンはOpen Education Globalの加盟団体です。
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 ---
