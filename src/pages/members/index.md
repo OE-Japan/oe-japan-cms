@@ -1,9 +1,9 @@
 ---
 templateKey: 'members-page'
 path: /members
-title: Members OE Japan 
+title: OE Japan Members
 heading: Members
-date: 2016-12-17T15:04:10.000Z
+date: 2018-12-17T15:04:10.000Z
 featuredpost: false
 description: OE Japanの会員リストです（2018年7月現在）
 tags:

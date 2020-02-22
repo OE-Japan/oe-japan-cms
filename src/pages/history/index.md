@@ -1,101 +1,146 @@
 ---
 templateKey: 'history-page'
 path: /history
-title: History OE Japan 
-image: /img/jumbotron.jpg
-heading: OE Japanの歴史
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
-intro:
-  blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
-pricing:
-  heading: Monthly subscriptions
-  description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
-  plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
-      items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
-      items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+title: OE Japan History
+heading: History
+date: 2018-12-17T15:04:10.000Z
+featuredpost: false
+description: OEジャパンの歴史
+tags:
+  - OE Japan History
+---
+
+## OEジャパン設立の経緯
+
+日本オープンコースウェアコンソーシアム（JOCW）は、2005年に発足した本コンソーシアムの前身である「日本オープンコースウェア連絡会」発足以来、日本国内におけるオープンコースウェアの普及、さらにはOERやオープンエデュケーション活動全般の普及に取り組んでまいりました。加えて、国際的なオープンエデュケーション普及団体である　Open Education Global (旧Open Education Consortium)に加盟し、世界的なオープンエデュケーションの活動に参画しつつ、国内に向けた情報提供を行ってまいりました。
+
+その後、昨今のオープン教育資源（OER）に対する関心の高まりや、大規模公開オンライン講座（MOOC）の普及を受け、国内外におけるOCWの役割は、オープンエデュケーションを代表するというより、その取り組みの一つして語られることが増えてまいりました。このため、JOCWにおいてもOCWに限らないオープンエデュケーション活動全般の普及を視野に入れるべく、2013年度総会にて定款を改訂し、活動内容を拡大してきました。
+
+このような状況を受け、また本コンソーシアムがこれから担うべき役割の再定義に向けて、2020年2月に日本オープンコースウェアコンソーシアム（JOCW）は「オープンエデュケーション・ジャパン（略称　OE ジャパン）」と変更することが決まりました。
+
+
+## JOCW 設立の経緯
+-----
+
+* 2004年にMITから日本の主要大学にOCW活動が紹介され、日本での実践が推奨されたことを受け、複数の大学でOCWに準拠した講義公開の準備を進めました。
+* 創設メンバー大学での公開準備が整った2005年5月13日に合同記者会見を行い、日本でのOCW活動の開始を正式にアナウンスし、本コンソーシアムの前身である「日本オープンコースウェア連絡会」も同時に発足しました。
+* OCW活動を日本で最初に開始した設立時のメンバーは[大阪大学](http://ocw.osaka-u.ac.jp/index.php?lang=_ja)、[京都大学](http://ocw.kyoto-u.ac.jp/jp/index.htm)、[慶應義塾大学](http://ocw.dmc.keio.ac.jp/j/)、[東京工業大学](http://www.ocw.titech.ac.jp/index.php?lang=JA)、[東京大学](http://ocw.u-tokyo.ac.jp/)、[早稲田大学](http://www.waseda.jp/ocw/indexj.html)（50音順）の6大学でした。
+* 2005年12月に[九州大学](http://ocw.kyushu-u.ac.jp/)、[名古屋大学](http://ocw.nagoya-u.jp/)、[北海道大学](http://ocw.hokudai.ac.jp/)がOCW活動の開始を決定し、連絡会に参加しました。同時にメディア教育開発センターも協力メンバーとして連絡会に参加しました。
+
+## JOCW 設立後の経過
+------
+
+* 2006年4月20日に「日本オープンコースウェア・コンソーシアム」（略称：JOCW)が設立されました。
+* 本会は「高等教育機関において正規に提供された講義および関連情報のインターネット無償公開」であるオープンコースウェアの活動に関し、会員間での情報交換を行ない、この活動を援助し普及することを目的として設立されました。
+* 本会は日本国内のOCW活動を実践する組織・団体、およびその活動を支援する組織・団体間での交流を図るほか、[国際コンソーシアム](http://www.ocwconsortium.org/)にもアフィリエイトメンバーとして加盟し、海外のOCW関連機関との交流にも務めていきます。
+* 2006年9月、関西大学、筑波大学、同志社大学がJOCWの新たな会員になりました。
+* 2006年10月、京都精華大学、立命館大学、立命館アジア太平洋大学が正会員として、財団法人高度映像情報センター（AVCC）、NPO法人サイバーキャンパスコンソーシアムTIES（CCC-TIES）が賛助会員としてJOCWに加盟しました。
+* 2007年4月、NPO法人日本イーラーニングコンソーシアムが賛助会員として加盟しました。
+* 2007年8月、女子栄養大学が正会員として、NPO法人クリエイティブ・コモンズ・ジャパンが賛助会員として加盟しました。
+* 2007年11月、明治大学が正会員として加盟しました。
+* 2008年1月、会則を変更し、准会員を設け、非営利団体は准会員とし、賛助会員として企業に加盟を呼びかけていくこととしました。また、2008年度より会費制に移行することを決定しました。
+* 2008年1月、朝日新聞社 ディジタルメディア本部、NTTレゾナント㈱、東京電機大学出版局が賛助会員として加盟しました。
+* 2008年3月、国連大学が正会員として、またメディアサイト㈱、㈱シーディーネットワークス・ジャパン、㈱メディア・リンク、㈱デジタル・ナレッジが賛助会員として加盟しました。
+* 2008年5月、株式会社内田洋行が賛助会員として加盟しました。
+* 2008年6月、国際基督教大学が正会員として加盟しました。
+* 2008年7月、徳島大学uラーニングセンターが賛助会員として加盟しました。
+* 2009年3月、千葉大学が正会員として加盟しました。
+* 2009年5月、株式会社映像システム,ソフトバンクBB株式会社が賛助会員として加盟しました。
+* 2009年8月、放送大学から申請された正会員としての加盟申請（実態はメディア教育開発センターの准会員からの種別変更）,日本イーラーニングコンソーシアムの会員種別変更（准会員→賛助会員）, セレゴジャパン株式会社の賛助会員加盟が承認されました。
+* 2010年1月、法政大学、関西学院大学が正会員として加盟しました。
+* 2010年7月、上智大学が正会員として加盟しました。
+* 2010年8月、株式会社 CMSコミュニケーションズが賛助会員として加盟しました。
+* 2010年9月、株式会社アーネットが賛助会員として加盟しました。
+* 2011年7月、ウチダスペクトラム株式会社が賛助会員として加盟しました。
+* 2011年8月、熊本大学が正会員として加盟しました。
+* 2012年11月、株式会社ネットラーニングが賛助会員として加盟しました。
+
+<!-- 
+会員の種類
+-----
+
+1.  正会員：学校教育法第5章で定められた大学等であって、本会の目的に賛同し、機関全体の正式な意思決定手順を経てオープンコースウェアの活動を開始することを決定した機関を正会員とします。
+2.  准会員：オープンコースウェア活動の援助・普及に大きく関わる**非営利機関**であって、本会の目的（第3条）に賛同し、機関内の正式な意思決定の手順を経た機関
+3.  賛助会員： オープンコースウェア活動の援助・普及に大きく関わる機関であって、本会の目的に賛同し、機関内の正式な意思決定の手順を経た機関を賛助会員とします。
+
+主な活動
+----
+
+1.  会員間の情報交換のための様々な機会や場所の提供
+2.  公開の講演会
+3.  その他目的達成に必要な活動
+
+会則
+--
+
+* [<<こちら :PDF130KB >>](http://jocw.jp/papers/jocw_bylaw_20130513.pdf)&nbsp;からダウンロードしてください
+* 入会申請書は[&nbsp;<<こちら :PDF 40KB >>](http://jocw.jp/image/JOCW_application_form_jp.pdf)&nbsp;にあります。
+
+著作権関連資料
+-------
+
+* 京都大学にて[「京都大学オープンコースウェアWEBサイト掲載における著作権関連資料」](http://ocw.kyoto-u.ac.jp/jp/copyright/copyright_index.htm)が公開されました。
+
+公開コース数の推移
+---------
+
+![course](http://jocw.jp/image/course_j_121210.jpg.gif)
+
+訪問者数の推移
+-------
+
+![access](http://jocw.jp/image/visitors_j_100305.jpg)
+
+会員数の推移
+------
+
+![member](http://jocw.jp/image/member1212.gif) 
+-->
+
+## OCWの歴史
+
+時　期 | 内　容   | 備　考                               
+-------- | ---------------------- | ----------------
+1999年秋   | MITにてe-Learning検討委員会が発足（学部代表による集中検討）|                                   
+2000年秋   | 検討委員会より「オープンコースウェア」のコンセプトがチャールズ・ベスト前MIT学長に答申される。 |                                   
+2001年4月  | MITはニューヨークタイムズにOCWを発表 |                                   
+2001年6月  | MIT、ウィリアムフローラヒューレット財団、アンドリューWメロン財団から資金獲得 |                                   
+2002年9月  | MITオープンコースウェアパイロットサイト公開     | 50コース、23分野     
+2003年9月  | MITオープンコースウェア正式発足           | 500コース、5学部、33分野 
+2004年4月  | MIT200コース追加公開               | MIT合計701コース 
+2004年8月  | 日本でMIT OCWワークショップ開催（於：東工大、4大学参加）                                           |                                   
+2004年9月  | MIT200コース追加公開               | MIT合計900コース、ほぼ半分の公開完了             
+2004年11月 | 第2回MIT OCWワークショップ開催（於：慶應大、10大学参加）                                          |                                   
+2005年5月  | 日本でのOCW開始（大阪大学、京都大学、慶應義塾大学、東京工業大学、東京大学、早稲田大学）<br>日本オープンコースウェア連絡会発足 | JOCW公開コース合計：153コース、JOCW参加機関数：6
+2005年6月  | MIT200コース追加公開               | MIT合計1100コース                      
+2005年9月  | ユタ州立大学にてOCW国際コンソーシアム準備会合開催  |                                   
+2005年12月 | MIT150コース追加公開               | MIT合計1250コース                      
+2005年12月 | 九州大学、名古屋大学、北海道大学がJOCWに参加<br>メディア教育開発センターも協力団体として参加<br>名古屋大学OCWサイト公開 | JOCW参加機関数：10
+2006年4月  | 京都大学にてオープンコースウェア国際会議開催<br>日本オープンコースウェアコンソーシアム発足 | JOCW公開コース合計：356コース                
+2006年4月  | 京都大学にてOCW国際コンソーシアム準備会合開催<br>OCW国際コンソーシアム発足    |                                   
+2006年5月  | MIT150コース追加公開               | MIT合計1400コース                      
+2006年9月  | 関西大学、筑波大学、同志社大学が正会員としてJOCWに加盟 | JOCW参加機関数：13                      
+2006年9月  | ユタ州立大学にてOCW国際コンソーシアム会合開催    |                                  
+2006年10月 | 京都精華大学、立命館大学、立命館アジア太平洋大学が正会員としてJOCWに加盟<br>また、AVCC,CCC-TIESが賛助会員としてJOCWに加盟 | JOCW加盟機関数：18                      
+2006年10月 | JOCW平成18年度総会開催（於：慶應義塾大学）    | 19機関から40名が参加                    
+2007年4月  | 慶應義塾大学にてクリエイティブ・コモンズ・ジャパン、慶應義塾大学DMC機構との共催で<br>「高等教育オープンコンテンツに関する知財セミナー」を開催     | 約60名の聴講者                          
+2007年4月  | 日本イーラーニングコンソーシアムが賛助会員として加盟  | JOCW加盟機関数：19                      
+2007年5月  | スペイン、サンタンダーにてOCW国際コンソーシアム会合開催 |                                   
+2007年6月  | 台湾で開催されたInternational Conference on Opencourseware and e-Learningに事務局代表が参加 |                                   
+2007年6月  | 第1回JOCW交流会を開催（於：慶應義塾大学）     | 16機関から25名が参加                      
+2007年8月  | 女子栄養大学が正会員として、クリエイティブ・コモンズ・ジャパンが賛助会員として加盟 | JOCW加盟機関数：21 
+2008年1月  | 新会則にあわせ、朝日新聞社デジタルメディア局、NTTレゾナント㈱、東京電機大学出版局が賛助会員として加盟 |    
+2008年3月  | 国連大学が正会員として加盟。<br>メディアサイト㈱、㈱シーディーネットワークス・ジャパン、㈱メディア・リンク、㈱デジタル・ナレッジが賛助会員として加盟 |    
+2008年5月  | 平成20年度JOCW総会が霞ヶ関ナレッジスクェアにて開催される。<br>株式会社内田洋行が賛助会員として加盟           |    
+2008年6月  | 国際基督教大学が正会員として加盟 |    
+2008年7月  | 徳島大学uラーニングセンターが賛助会員として加盟                                        |    
+2008年11月 | 平成20年度JOCW交流会が慶應義塾大学にて開催される                                     |    
+2008年12月 | 北九州市小倉で平成20年度情報教育研究集会が開催され、特別セッションにてJOCWとしての取り組み、および主要なOCW公開大学の取り組みを紹介。 <br>セミナーの様子・配布資料は[こちら](http://www.jocw.jp/InfoEd_j.html)                                  |    
+2009年3月  | 千葉大学が正会員として加盟    |    
+2009年5月  | 平成21年度JOCW総会が慶應義塾大学にて開催される。<br>株式会社映像システム,ソフトバンクBB株式会社が賛助会員として加盟 |    
+2009年8月  | 名古屋大学で平成21年度工学・工業教育研究講演会が開催され、オーガナイズドセッションにおいて、「オープンコンテンツとその応用」のテーマでJOCWとしての取り組み、および主要なOCW公開大学の取り組みを紹介した。<br>セミナーの様子・配布資料などは[こちら](http://www.jocw.jp/jsee_j.html) |    
+2009年8月  | 放送大学から申請された正会員としての加盟申請（実態はメディア教育開発センターの准会員からの種別変更）<br>日本イーラーニングコンソーシアムの会員種別変更（准会員→賛助会員）, セレゴジャパン株式会社の賛助会員加盟が承認された。|    
+2009年11月 | コリア大学（ソウル、韓国）にて第1回アジア地域OCW会議が開催され、100名以上が参加者。日本からも15人が参加 |    
+2009年11月 | 2009年度JOCW交流会が内田洋行株式会社新川オフィスにて開催された。|    
+
 ---
