@@ -1,11 +1,11 @@
 ---
 templateKey: index-page
-title: Open Education Japan
+title: Open Education Japan (OE Japan)
 image: /img/home-jumbotron.jpg
-heading: Open Education Japan
+heading: Open Education Japan (OE Japan)
 subheading: We foster open education and open educational materials.
 mainpitch:
-  title: オープンエデュケーション・ジャパン（略称　OEジャパン）
+  title: オープンエデュケーション・ジャパン（OEジャパン）
   description: >-
     オープンエデュケーション・ジャパン（略称　OEジャパン）は日本オープンコースウェアコンソーシアム（JOCW）を発展的に解消し、日本におけるオープンエデュケーションの推進およびオープン教育リソース（Open Educational Resoource: OER）の普及・促進に寄与することを目的に設立された団体です。大学や企業等で構成される会員団体の間でオープンエデュケーションに関する情報共有を図るほか、国際的なオープンエデュケーション普及団体であるOpen Education Globalとも連携しつつ、世界的なオープンエデュケーションの活動に参画しつつ、国内に向けた情報提供を行っています。オープンエデュケーション・ジャパンはOpen Education Globalの加盟団体です。
 description: >-
