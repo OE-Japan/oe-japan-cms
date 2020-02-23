@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Open Education Global 2017
 date: 2017-3-23T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/blog/2017oeglobal-jocw-6.jpg
+featuredimage: /img/blog/Open-Education-Global-2017-logo-black.png
 description: Open Education Global 2017 がケープタウンで開催されました。
 tags:
   - JOCW
