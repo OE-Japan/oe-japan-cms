@@ -71,18 +71,12 @@ const Navbar = class extends React.Component {
               </Link>
               <Link className="navbar-item" to="/blog">
                 Blog
-              </Link>              
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/Takaya-Yamazato/oe-japan-cms"
+                href="https://www.facebook.com/JapanOCWConsortium/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

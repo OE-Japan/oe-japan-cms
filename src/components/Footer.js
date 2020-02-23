@@ -102,12 +102,12 @@ const Footer = class extends React.Component {
                   />
                 </a>
                 <a
-                  className="navbar-item"
+                  titel="Github"
                   href="https://github.com/Takaya-Yamazato/oe-japan-cms"
                   target="_blank"
                   rel="noopener noreferrer"
                   >
-                  <img src={github} alt="Github" />
+                  <img src={github} alt="Github" style={{ width: '1em', height: '1em' }} />
                 </a>
               </div>
             </div>
