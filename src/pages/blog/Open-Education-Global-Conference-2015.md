@@ -6,6 +6,6 @@ featuredpost: false
 featuredimage: /img/oe-japan-logo.png
 description: Open Education Global Conference 2015は4月22日から24日の予定で、カナダ、アルバータ州のバンフで開催されます。
 tags:
-  - Open Education Global Conference 2015
+  - オープンエデュケーション
 ---
 [Open Education Global Conference 2015](http://conference.oeconsortium.org/2015/)&nbsp;は 4月22日から24日の予定で、カナダ、アルバータ州のバンフで開催されます。

@@ -7,7 +7,7 @@ date: 2018-12-17T15:04:10.000Z
 featuredpost: false
 description: OEジャパンの歴史
 tags:
-  - OE Japan History
+  - Opuen Education Japan
 ---
 
 ## OEジャパン設立の経緯

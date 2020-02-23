@@ -7,7 +7,7 @@ date: 2018-12-17T15:04:10.000Z
 featuredpost: false
 description: OE Japanの会員リストです（2018年7月現在）
 tags:
-  - OE Japan Members
+  - Opuen Education Japan
 ---
 
 ### 正会員(大学：５０音順）

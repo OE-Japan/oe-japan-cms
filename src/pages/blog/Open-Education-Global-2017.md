@@ -7,7 +7,7 @@ featuredimage: /img/blog/2017oeglobal-jocw-6.jpg
 description: Open Education Global 2017 がケープタウンで開催されました。
 tags:
   - JOCW
-  - Open Education Global
+  - オープンエデュケーション
 ---
 ![](/img/blog/2017oeglobal-jocw-6.jpg)
 
