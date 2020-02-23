@@ -64,7 +64,10 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://www.facebook.com/JapanOCWConsortium/">
+                <a
+                  title="facebook"
+                  href="https://www.facebook.com/JapanOCWConsortium/"
+                >
                   <img
                     src={facebook}
                     alt="Facebook"
@@ -91,8 +94,12 @@ const Footer = class extends React.Component {
                   href="https://github.com/Takaya-Yamazato/oe-japan-cms"
                   target="_blank"
                   rel="noopener noreferrer"
-                  >
-                  <img src={github} alt="Github" style={{ width: '1em', height: '1em' }} />
+                >
+                  <img
+                    src={github}
+                    alt="Github"
+                    style={{ width: '1em', height: '1em' }}
+                  />
                 </a>
               </div>
             </div>

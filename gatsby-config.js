@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Open Education Japan',
-    description:
-      'We foster open education and open educational materials.',
+    description: 'We foster open education and open educational materials.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
