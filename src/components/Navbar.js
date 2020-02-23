@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import facebook from '../img/social/facebook.svg'
+/* import facebook from '../img/social/facebook.svg' */
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -76,22 +76,6 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://www.facebook.com/JapanOCWConsortium/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </span>
-              </a>
             </div>
           </div>
         </div>

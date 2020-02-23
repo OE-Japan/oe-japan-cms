@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 
 import logo from '../img/logo.svg'
 import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
+/* import instagram from '../img/social/instagram.svg'
+import twitter from '../img/social/twitter.svg' */
 import github from '../img/github-icon.svg'
 
 const Footer = class extends React.Component {
@@ -74,7 +74,7 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com">
+{/*                 <a title="twitter" href="https://twitter.com">
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -89,6 +89,7 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
+                 */}
                 <a
                   titel="Github"
                   href="https://github.com/Takaya-Yamazato/oe-japan-cms"
