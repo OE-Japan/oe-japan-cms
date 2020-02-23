@@ -5,9 +5,10 @@ title: OE Japan History
 heading: History
 date: 2018-12-17T15:04:10.000Z
 featuredpost: false
-description: OEジャパンの歴史
+description: オープンエデュケーション・ジャパン（略称　OE ジャパン）は日本オープンコースウェアコンソーシアム（JOCW）を発展的に解消し、発足した団体です。
 tags:
   - Opuen Education Japan
+  - JOCW
 ---
 
 ## OEジャパン設立の経緯
@@ -142,5 +143,27 @@ tags:
 2009年8月  | 放送大学から申請された正会員としての加盟申請（実態はメディア教育開発センターの准会員からの種別変更）<br>日本イーラーニングコンソーシアムの会員種別変更（准会員→賛助会員）, セレゴジャパン株式会社の賛助会員加盟が承認された。|    
 2009年11月 | コリア大学（ソウル、韓国）にて第1回アジア地域OCW会議が開催され、100名以上が参加者。日本からも15人が参加 |    
 2009年11月 | 2009年度JOCW交流会が内田洋行株式会社新川オフィスにて開催された。|    
+
+
+* 京都大学にて[「京都大学オープンコースウェアWEBサイト掲載における著作権関連資料」](http://ocw.kyoto-u.ac.jp/jp/copyright/copyright_index.htm)が公開されました。
+
+### JOCWのデータ
+
+2012年までのJOCW各種データをまとめてあります。
+
+#### JOCW公開コース数の推移
+---------
+
+![course](/img/JOCW/course_j_121210.jpg.gif)
+
+#### 日本におけるOCW公開サイト訪問者数の推移
+-------
+
+![access](/img/JOCW/visitors_j_100305.jpg)
+
+#### JOCW会員数の推移
+------
+
+![member](/img/JOCW/member1212.gif) 
 
 ---
