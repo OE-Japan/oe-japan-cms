@@ -7,7 +7,8 @@ subheading: We foster open education and open educational materials.
 mainpitch:
   title: オープンエデュケーション・ジャパン（OEジャパン）
   description: >-
-    オープンエデュケーション・ジャパン（略称　OEジャパン）は日本オープンコースウェアコンソーシアム（JOCW）の名称を新しくすることで、日本におけるオープンエデュケーションの推進およびオープン教育リソース（Open Educational Resoource: OER）の普及・促進に寄与することを目指している団体です。大学や企業等で構成される会員団体の間でオープンエデュケーションに関する情報共有を図るほか、国際的なオープンエデュケーション普及団体であるOpen Education Globalとも連携しつつ、世界的なオープンエデュケーションの活動に参画し、国内に向けた情報提供を行っています。オープンエデュケーション・ジャパンはOpen Education Globalの加盟団体です。
+    オープンエデュケーション・ジャパン（略称　OEジャパン）は、日本におけるオープンエデュケーションの推進およびオープン教育リソース（Open Educational Resoource: OER）の普及・促進に寄与することを目指している団体です。大学や企業等で構成される会員団体の間でオープンエデュケーションに関する情報共有を図るほか、国際的なオープンエデュケーション普及団体であるOpen Education Globalとも連携しつつ、世界的なオープンエデュケーションの活動に参画し、国内に向けた情報提供を行っています。
+    オープンエデュケーション・ジャパンは日本オープンコースウェアコンソーシアム（JOCW）の名称を新しくした団体であり、Open Education Globalの加盟団体です。
 description: >-
   Open Education Japan (OE Japan) is an organization established to contribute to the promotion of open education and the dissemination and promotion of open educational resources (OER) in Japan by progressively dissolving the Japan Open Courseware Consortium (JOCW).  In addition to sharing information on open education among member organizations consisting of universities and companies, we participate in global open education activities in cooperation with Open Education Global, an international organization promoting open education, and provide information to the public in Japan.  OE Japan is a member of Open Education Global.
 intro:
@@ -26,5 +27,6 @@ intro:
         大規模オープンオンラインコース（Massive Open Online Courses : MOOCs）とは、コンピュータとインターネットにアクセスできれば誰でも無償もしくは安価に利用できるオンライン講義のことです。日本では、一般社団法人日本オープンオンライン教育推進協議会(JMOOC)がオンラインで公開された無料の講座を提供しています。JMOOCの講座は一部のオプションを除き、修了証の取得まで無料で受講できます。
   heading: Open Education Japan (OE Japan)
   description: >
-    オープンエデュケーション・ジャパン（略称　OEジャパン）は日本オープンコースウェアコンソーシアム（JOCW）の名称を新しくすることで、日本におけるオープンエデュケーションの推進およびオープン教育リソース（Open Educational Resoource: OER）の普及・促進に寄与することを目指している団体です。大学や企業等で構成される会員団体の間でオープンエデュケーションに関する情報共有を図るほか、国際的なオープンエデュケーション普及団体であるOpen Education Globalとも連携しつつ、世界的なオープンエデュケーションの活動に参画し、国内に向けた情報提供を行っています。オープンエデュケーション・ジャパンはOpen Education Globalの加盟団体です。
+    オープンエデュケーション・ジャパン（略称　OEジャパン）は、日本におけるオープンエデュケーションの推進およびオープン教育リソース（Open Educational Resoource: OER）の普及・促進に寄与することを目指している団体です。大学や企業等で構成される会員団体の間でオープンエデュケーションに関する情報共有を図るほか、国際的なオープンエデュケーション普及団体であるOpen Education Globalとも連携しつつ、世界的なオープンエデュケーションの活動に参画し、国内に向けた情報提供を行っています。
+    オープンエデュケーション・ジャパンは日本オープンコースウェアコンソーシアム（JOCW）の名称を新しくした団体であり、Open Education Globalの加盟団体です。
 ---
