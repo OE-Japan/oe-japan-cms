@@ -364,7 +364,7 @@ export default () => (
                   </a>
                   <img
                     class="aligncenter wp-image-149"
-                    src="http://jocw.jp/jp/wp-content/uploads/2018/11/color_01fit-293x300.png"
+                    src="/img/JOCW/emblem/Aska-Academy.png"
                     alt=""
                     width="78"
                     height="80"
