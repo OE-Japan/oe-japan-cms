@@ -1,33 +1,35 @@
 {
   "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
-  "version": "1.1.3",
-  "author": "Austin Green",
+  "description": "Open Education Japan (OE Japan)",
+  "version": "1.0.3",
+  "author": "Takaya Yamazato",
   "dependencies": {
-    "bulma": "^0.8.0",
-    "gatsby": "^2.19.21",
-    "gatsby-image": "^2.2.41",
-    "gatsby-plugin-netlify": "^2.1.32",
-    "gatsby-plugin-netlify-cms": "^4.1.40",
-    "gatsby-plugin-purgecss": "^4.0.1",
-    "gatsby-plugin-react-helmet": "^3.1.22",
-    "gatsby-plugin-sass": "^2.1.29",
-    "gatsby-plugin-sharp": "^2.4.5",
-    "gatsby-remark-copy-linked-files": "^2.1.37",
-    "gatsby-remark-images": "^3.1.44",
-    "gatsby-remark-relative-images": "^0.3.0",
-    "gatsby-source-filesystem": "^2.1.48",
-    "gatsby-transformer-remark": "^2.6.53",
-    "gatsby-transformer-sharp": "^2.3.14",
-    "lodash": "^4.17.15",
-    "lodash-webpack-plugin": "^0.11.5",
-    "netlify-cms-app": "^2.11.23",
-    "node-sass": "^4.13.1",
+    "bulma": "^0.9.3",
+    "gatsby": "^3.10.2",
+    "gatsby-image": "^3.10.0",
+    "gatsby-plugin-image": "^1.10.1",
+    "gatsby-plugin-netlify": "^3.10.0",
+    "gatsby-plugin-netlify-cms": "^5.10.0",
+    "gatsby-plugin-purgecss": "^6.0.2",
+    "gatsby-plugin-react-helmet": "^4.10.0",
+    "gatsby-plugin-sass": "^4.10.0",
+    "gatsby-plugin-sharp": "^3.10.2",
+    "gatsby-remark-copy-linked-files": "^4.7.0",
+    "gatsby-remark-images": "^5.7.0",
+    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-remark-relative-images-v2": "^0.1.5",
+    "gatsby-source-filesystem": "^3.10.0",
+    "gatsby-transformer-remark": "^4.7.0",
+    "gatsby-transformer-sharp": "^3.10.0",
+    "lodash": "^4.17.20",
+    "lodash-webpack-plugin": "^0.11.6",
+    "netlify-cms-app": "^2.15.30",
+    "node-sass": "^6.0.1",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "uuid": "^7.0.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "uuid": "^8.3.2"
   },
   "keywords": [
     "gatsby"
@@ -43,6 +45,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.3.2"
   }
 }

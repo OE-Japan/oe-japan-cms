@@ -4,6 +4,7 @@ module.exports = {
     description: 'We foster open education and open educational materials.',
   },
   plugins: [
+    'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
@@ -35,7 +36,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-relative-images',
+            resolve: 'gatsby-remark-relative-images-v2',
             options: {
               name: 'uploads',
             },

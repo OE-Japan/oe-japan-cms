@@ -1,7 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+
+// import PreviewCompatibleImage from './PreviewCompatibleImage'
+// import ThumbnailImg from "./Thumbnail";
+import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
+
 
 class BlogTopRoll extends React.Component {
   render() {
@@ -21,14 +25,18 @@ class BlogTopRoll extends React.Component {
                 <header>
                   {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
+                      {/* <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
                           alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                         }}
-                      />
+                      /> */}
+                      <GatsbyImage
+                          image={post.frontmatter.featuredimage.childImageSharp.gatsbyImageData}
+                          alt={`featured image thumbnail for post ${post.title}`}
+                        />
                     </div>
-                  ) : null}
+                  ) : <StaticImage src="../../static/img/oe-japan-logo.png" alt="Open Education Japan (OE Japan)" />}
                   <p className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
@@ -89,9 +97,7 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
+                    gatsbyImageData(width: 480, quality: 100, layout: CONSTRAINED)
                   }
                 }
                 description
