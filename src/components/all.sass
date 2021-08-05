@@ -1,11 +1,12 @@
-@import "~bulma/sass/utilities/initial-variables"
+@charset "utf-8"
+@import "~bulma/sass/utilities/initial-variables.sass"
 
 // Config vars
 // Kaldi logo brand color: #FD461E
 // 灰色：#7C7C7C
 // 黒　：#333436
 // 紅　：#B11C2F
-// 水色：#3B94D0 
+// 水色：#3B94D0
 $kaldi-red: #B11C2F
 $kaldi-red-invert: #fff
 
@@ -14,8 +15,8 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #333436
 
-.navbar .navbar-menu
-  box-shadow:none !important
+// .navbar .navbar-menu
+//   box-shadow:none !important
 
 .content .taglist
   list-style: none
@@ -118,29 +119,29 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #d6400033
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
 
-.member_image
-  float: left;
-  
+// .member_image
+//   float: left;
+
 @import "~bulma"
 
 
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em

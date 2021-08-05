@@ -1,16 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
-
-// import PreviewCompatibleImage from './PreviewCompatibleImage'
-// import ThumbnailImg from "./Thumbnail";
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 
-
 class BlogTopRoll extends React.Component {
+// const BlogTopRoll = props => {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { data } = this.props;
+    const { edges: posts } = data.allMarkdownRemark;
 
     return (
       <div className="columns is-multiline">
@@ -19,24 +17,18 @@ class BlogTopRoll extends React.Component {
             <div className="is-parent column is-6" key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
+                  post.frontmatter.featuredpost ? 'is-featured' : 'featured'
                 }`}
               >
                 <header>
-                  {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
-                      {/* <PreviewCompatibleImage
+                      <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
                           alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                         }}
-                      /> */}
-                      <GatsbyImage
-                          image={post.frontmatter.featuredimage.childImageSharp.gatsbyImageData}
-                          alt={`featured image thumbnail for post ${post.title}`}
-                        />
+                      />
                     </div>
-                  ) : <StaticImage src="../../static/img/oe-japan-logo.png" alt="Open Education Japan (OE Japan)" />}
                   <p className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
@@ -62,9 +54,9 @@ class BlogTopRoll extends React.Component {
             </div>
           ))}
       </div>
-    )
-  }
-}
+    );
+  };
+};
 
 BlogTopRoll.propTypes = {
   data: PropTypes.shape({
@@ -81,7 +73,7 @@ export default () => (
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
-          limit: 8
+          limit: 10
         ) {
           edges {
             node {
@@ -97,7 +89,7 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    gatsbyImageData(width: 480, quality: 100, layout: CONSTRAINED)
+                    gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
                   }
                 }
                 description

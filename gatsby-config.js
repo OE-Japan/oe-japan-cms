@@ -2,11 +2,13 @@ module.exports = {
   siteMetadata: {
     title: 'Open Education Japan',
     description: 'We foster open education and open educational materials.',
+    siteUrl: `https://jocw.jp/`,
+    social: {
+      facebook: `https://www.facebook.com/JapanOCWConsortium/`
+    }
   },
   plugins: [
     'gatsby-plugin-image',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -36,7 +38,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-relative-images-v2',
+            resolve: 'gatsby-remark-relative-images',
             options: {
               name: 'uploads',
             },
@@ -65,6 +67,8 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {

@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
-// import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class BlogRoll extends React.Component {
   render() {
@@ -16,19 +15,20 @@ class BlogRoll extends React.Component {
             <div className="is-parent column is-6" key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
+                  post.frontmatter.featuredpost ? 'is-featured' : null
                 }`}
               >
-                <header>
-                  {post.frontmatter.featuredimage ? (
+                {/* {post.frontmatter.featuredimage ? ( */}
                     <div className="featured-thumbnail">
-                      <GatsbyImage
-                          image={post.frontmatter.featuredimage.childImageSharp.gatsbyImageData}
-                          alt={`featured image thumbnail for post ${post.title}`}
-                        />
+                      <PreviewCompatibleImage
+                        imageInfo={{
+                          image: post.frontmatter.featuredimage,
+                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                        }}
+                      />
                     </div>
-                  ) : <StaticImage src="../../static/img/oe-japan-logo.png" alt="Open Education Japan (OE Japan)" />}
-                  <p className="post-meta">
+                  {/* ) : null} */}
+                <p className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
                       to={post.fields.slug}
@@ -36,13 +36,12 @@ class BlogRoll extends React.Component {
                       {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
+                    <span className="subtitle is-size-6 is-block">
                       {post.frontmatter.date}
                     </span>
                   </p>
-                </header>
                 <p>
-                  {post.frontmatter.description}
+                  {post.excerpt}
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
@@ -65,13 +64,15 @@ BlogRoll.propTypes = {
   }),
 }
 
-export default () => (
-  <StaticQuery
-    query={graphql`
-      query BlogRollQuery {
+
+export default function BlogRollQuery() {
+  return (
+    <StaticQuery
+      query={graphql`
+      query  {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          sort: {order: DESC, fields: [frontmatter___date]}
+          filter: {frontmatter: {templateKey: {eq: "blog-post"}}}
         ) {
           edges {
             node {
@@ -87,16 +88,16 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    gatsbyImageData(width: 480, quality: 100, layout: CONSTRAINED)
+                    gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
                   }
                 }
-                description
               }
             }
           }
         }
       }
-    `}
-    render={(data, count) => <BlogRoll data={data} count={count} />}
-  />
-)
+      `}
+       render={(data, count) => <BlogRoll data={data} count={count} />}
+    />
+  )
+}

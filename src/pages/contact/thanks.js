@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../../components/Layout'
 
 // export default () => (
-const Thanks = () => {
+const Thanks = () => (
   <Layout>
     <section className="section">
       <div className="container">
@@ -13,6 +13,6 @@ const Thanks = () => {
       </div>
     </section>
   </Layout>
-}
+)
 
 export default Thanks;

@@ -1,32 +1,24 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
+import SeO from "../components/seo";
 import Layout from '../components/Layout'
-import Features from '../components/Features'
+// import Features from '../components/Features'
 import BlogTopRoll from '../components/BlogTopRoll'
+import BlogRoll from '../components/BlogRoll'
+// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import { GatsbyImage, StaticImage } from 'gatsby-plugin-image'
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
-}) => (
-  <div>
-    <div
-      className="full-width-image margin-top-0"
+const IndexPageTemplate = ({ data }) => (
+  <Layout>
+    <SeO title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description} />
+      <div className="full-width-image margin-top-0"
       style={{
-        // backgroundImage: `url(${
-        //   !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        // })`,
         backgroundImage: `url(/img/home-jumbotron.jpg)`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
-    >
+      >
       <div
         style={{
           display: 'flex',
@@ -48,23 +40,24 @@ export const IndexPageTemplate = ({
             padding: '0.25em',
           }}
         >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered  "
-          style={{
-            boxShadow:
-              'rgb(177, 28, 47) 0.5rem 0px 0px, rgb(177, 28, 47) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(177, 28, 47)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
-      </div>
-    </div>
+           {data.markdownRemark.frontmatter.title}
+         </h1>
+         <h3
+           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered  "
+           style={{
+             boxShadow:
+               'rgb(177, 28, 47) 0.5rem 0px 0px, rgb(177, 28, 47) -0.5rem 0px 0px',
+             backgroundColor: 'rgb(177, 28, 47)',
+             color: 'white',
+             lineHeight: '1',
+             padding: '0.25em',
+           }}
+         >
+           {data.markdownRemark.frontmatter.subtitle}
+         </h3>
+       </div>
+     </div>
+
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -72,113 +65,118 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile">
-                    {/* <h1 className="title">{mainpitch.title}</h1> */}
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {mainpitch.title}
-                    </h3>
+                  <section className="content" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+                </div>
+
+                <div className="columns is-multiline">
+                  <div className="column is-6">
+                    <section className="section">
+                      <div className="has-text-centered">
+                        <div style={{width: "240px", display: "inline-block"}} >
+                            <StaticImage src="../../static/img/coffee.png" alt="Open Education" placeholder="blurred" />
+                        </div>
+                      </div>
+                      <br />
+                      <p>{data.markdownRemark.frontmatter.oe.text}</p>
+                    </section>
                   </div>
-                  <div className="tile">
-                    {/* <h3 className="subtitle">{mainpitch.description}</h3> */}
-                    <p>{mainpitch.description}</p>
+                  <div className="column is-6">
+                    <section className="section">
+                      <div className="has-text-centered">
+                        <div style={{width: "240px", display: "inline-block"}} >
+                            <StaticImage src="../../static/img/coffee-gear.png" alt="Open Educational Resources" placeholder="blurred" />
+                        </div>
+                      </div>
+                      <br />
+                      <p>{data.markdownRemark.frontmatter.oer.text}</p>
+                    </section>
+                  </div>
+                </div>
+
+                <div className="columns is-multiline">
+                  <div className="column is-6">
+                    <section className="section">
+                      <div className="has-text-centered">
+                        <div style={{width: "240px", display: "inline-block"}} >
+                            <StaticImage src="../../static/img/tutorials.png" alt="OpenCourseWare" placeholder="blurred" />
+                        </div>
+                      </div>
+                      <br />
+                      <p>{data.markdownRemark.frontmatter.ocw.text}</p>
+                    </section>
+                  </div>
+                  <div className="column is-6">
+                    <section className="section">
+                      <div className="has-text-centered">
+                        <div style={{width: "240px", display: "inline-block"}} >
+                            <StaticImage src="../../static/img/meeting-space.png" alt="MOOCs" placeholder="blurred" />
+                        </div>
+                      </div>
+                      <br />
+                      <p>{data.markdownRemark.frontmatter.moocs.text}</p>
+                    </section>
                   </div>
                 </div>
                 <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                {/* <Features gridItems={intro.blurbs} /> */}
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/history">
-                      See our history
-                    </Link>
-                  </div>
-                </div>
+                   <div className="column is-12 has-text-centered">
+                     <Link className="btn" to="/history">
+                       See our history
+                     </Link>
+                   </div>
+                 </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
+                  <h3 className="has-text-weight-semibold is-size-2">News and Updates</h3>
                   <BlogTopRoll />
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
+                    <Link className="btn" to="/news">
                       Read more
                     </Link>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  </div>
-)
+  </Layout>
+);
 
-IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-}
-
-const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
-
-  return (
-    <Layout>
-      <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-      />
-    </Layout>
-  )
-}
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-}
-
-export default IndexPage
+export default IndexPageTemplate;
 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      frontmatter {
+  query IndexPageQuery {
+    site {
+      siteMetadata {
         title
-        heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
         description
-        intro {
-          blurbs {
+      }
+      pathPrefix
+    }
+    markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
+        id
+        html
+        frontmatter {
+          description
+          heading
+          moocs {
             text
           }
-          heading
-          description
+          ocw {
+            text
+          }
+          oe {
+            text
+          }
+          oer {
+            text
+          }
+          subtitle
+          templateKey
+          title
         }
       }
-    }
-  }
-`
+}
+
+`;
