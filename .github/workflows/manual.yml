@@ -5,6 +5,8 @@
 # 以下のサイトを参考に github action で build, netlify へ publicフォルダを転送
 # https://sung.codes/blog/2019/12/25/building-gatsby-with-git-hub-actions-and-deploying-to-netlify/
 # これで netlify のビルド時間を気にしなくても良いかも．素晴らしい！！
+# https://docs.netlify.com/cli/get-started/#link-with-an-environment-variable
+# https://docs.netlify.com/cli/get-started/#obtain-a-token-in-the-netlify-ui
 
 name: Node.js CI + deploying to netlify
 
