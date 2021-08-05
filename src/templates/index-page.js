@@ -5,9 +5,9 @@ import SeO from "../components/seo";
 import Layout from '../components/Layout'
 // import Features from '../components/Features'
 import BlogTopRoll from '../components/BlogTopRoll'
-import BlogRoll from '../components/BlogRoll'
+// import BlogRoll from '../components/BlogRoll'
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import { GatsbyImage, StaticImage } from 'gatsby-plugin-image'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const IndexPageTemplate = ({ data }) => (
   <Layout>
