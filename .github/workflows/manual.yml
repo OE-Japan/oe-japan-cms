@@ -8,7 +8,6 @@
 # https://docs.netlify.com/cli/get-started/#link-with-an-environment-variable
 # https://docs.netlify.com/cli/get-started/#obtain-a-token-in-the-netlify-ui
 
-
 name: Node.js CI + deploying to netlify
 
 on:
@@ -36,10 +35,25 @@ jobs:
       - run: yarn
       - run: npm run build
 
-      - name: Publish
+      - name: Publish using netlify
         uses: netlify/actions/cli@master
         with:
           args: deploy --dir=public --prod
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+
+      # 確認のためのリスト表示　必要なければ削除
+      - name: List output files
+        run: ls -laFG
+
+      # rsync の設定
+      - name: Rsync deployments to sakura.ne.jp
+        uses: burnett01/rsync-deployments@4.1
+        with:
+          switches: -avzr --delete --omit-dir-times
+          path: public/
+          remote_path: ${{ secrets.REMOTE_PATH }}
+          remote_host: ${{ secrets.REMOTE_HOST }}
+          remote_user: ${{ secrets.REMOTE_USER }}
+          remote_key: ${{ secrets.ID_ECDSA_FREEDOM }}
