@@ -32,6 +32,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       # - run: npm ci
       # - run: npm audit fix
+      # yarn へ変更
       - run: yarn
       - run: npm run build
 
