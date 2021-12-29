@@ -14,7 +14,7 @@ const IndexPageTemplate = ({ data }) => (
     <SeO title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description} />
       <div className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(/img/home-jumbotron.jpg)`,
+        backgroundImage: `url(/img/sunrise.jpg)`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
