@@ -73,7 +73,7 @@ const IndexPageTemplate = ({ data }) => (
                     <section className="section">
                       <div className="has-text-centered">
                         <div style={{width: "240px", display: "inline-block"}} >
-                            <StaticImage src="../../static/img/coffee.png" alt="Open Education" placeholder="blurred" />
+                            <StaticImage src="../../static/img/oe.png" alt="Open Education" placeholder="blurred" />
                         </div>
                       </div>
                       <br />
@@ -84,7 +84,7 @@ const IndexPageTemplate = ({ data }) => (
                     <section className="section">
                       <div className="has-text-centered">
                         <div style={{width: "240px", display: "inline-block"}} >
-                            <StaticImage src="../../static/img/coffee-gear.png" alt="Open Educational Resources" placeholder="blurred" />
+                            <StaticImage src="../../static/img/oer.png" alt="Open Educational Resources" placeholder="blurred" />
                         </div>
                       </div>
                       <br />
@@ -98,7 +98,7 @@ const IndexPageTemplate = ({ data }) => (
                     <section className="section">
                       <div className="has-text-centered">
                         <div style={{width: "240px", display: "inline-block"}} >
-                            <StaticImage src="../../static/img/tutorials.png" alt="OpenCourseWare" placeholder="blurred" />
+                            <StaticImage src="../../static/img/ocw.png" alt="OpenCourseWare" placeholder="blurred" />
                         </div>
                       </div>
                       <br />
@@ -109,7 +109,7 @@ const IndexPageTemplate = ({ data }) => (
                     <section className="section">
                       <div className="has-text-centered">
                         <div style={{width: "240px", display: "inline-block"}} >
-                            <StaticImage src="../../static/img/meeting-space.png" alt="MOOCs" placeholder="blurred" />
+                            <StaticImage src="../../static/img/mooc.png" alt="MOOCs" placeholder="blurred" />
                         </div>
                       </div>
                       <br />
