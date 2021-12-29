@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
 title: Open Education Japan (OE Japan)
-subtitle: We foster open education and open educational materials.
-heading:  We foster open education and open educational materials.
+subtitle: We foster open education and open educational resources.
+heading:  We foster open education and open educational resources.
 description: Open Education Japan (OE Japan) is an organization established to contribute to the promotion of open education and the dissemination and promotion of open educational resources (OER) in Japan by progressively dissolving the Japan Open Courseware Consortium (JOCW).  In addition to sharing information on open education among member organizations consisting of universities and companies, we participate in global open education activities in cooperation with Open Education Global, an international organization promoting open education, and provide information to the public in Japan.  OE Japan is a member of Open Education Global.
 oe:
   image: /img/coffee.png
