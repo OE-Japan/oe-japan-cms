@@ -15,7 +15,7 @@ const IndexPageTemplate = ({ data }) => (
       <div className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(/img/sunrise.jpg)`,
-        backgroundPosition: `top left`,
+        backgroundPosition: `top right`,
         backgroundAttachment: `fixed`,
       }}
       >
