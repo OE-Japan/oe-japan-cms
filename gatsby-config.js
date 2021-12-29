@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Open Education Japan',
     description: 'We foster open education and open educational materials.',
-    siteUrl: `https:/oejapan.org/`,
+    siteUrl: `https://oejapan.org/`,
     social: {
       facebook: `https://www.facebook.com/JapanOCWConsortium/`
     }
