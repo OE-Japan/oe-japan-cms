@@ -199,15 +199,15 @@ src/pages に新しいマークダウンファイルを追加してください�
 このとき，マークダウンファイルに記載のフォーマットは変更しないようにしてください．
 特に上段の Frontmatter の項目は Gatsby が参照しますので，コロン以降のみ変更するようにしてください．
 
-以下，src/news の Activities-of-participating-organizations-Hokkaido-University.md を例に説明します．
+以下，`src/news` の `Activities-of-participating-organizations-Hokkaido-University.md` を例に説明します．
 
 ファイル名がそのまま slug になります．たとえば，この例ですと，
 
 https://oejapan.org/news/Activities-of-participating-organizations-Hokkaido-University/
 
-となります．たぶん大丈夫だとは思いますが，ファイル名は英数字の方が安全かと思われます．
+となります．ファイル名が日本語でも大丈夫だとは思いますが，英数字の方が何かと安全ですのでファイル名は英数字としてください．
 
-src/news/Activities-of-participating-organizations-Hokkaido-University.md は以下のようになっています．
+`src/news/Activities-of-participating-organizations-Hokkaido-University.md` は以下のようになっています．
 
 ```
 ---
@@ -243,7 +243,7 @@ News の場合は templateKey を blog-post と指定しています．なお，
 
 `title` はタイトルですので，適宜修正してください．
 
-`description` は概要ですので，適宜修正してください．
+`date` は掲載日ですので，適宜修正してください．
 
 `featuredpost: true` はそのまま変更しなくて結構です．
 
@@ -251,7 +251,7 @@ News の場合は templateKey を blog-post と指定しています．なお，
 アップロードして利用したい場合には static/img/blog におき，/img/blog/ファイル名 で指定してください．
 たとえば，/static/img/blog/huocw.png を指定する場合は `featuredimage: /img/blog/huocw.png` となります．
 
-`date` は掲載日ですので，適宜修正してください．
+`description` は概要ですので，適宜修正してください．
 
 `tags` はタグになります．タグは上に記載のように「-」で一行にひとつ書いてください．
 
