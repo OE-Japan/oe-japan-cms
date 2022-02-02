@@ -4,93 +4,276 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's blog starter
+  oe-japan-cms
 </h1>
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+このサイトは [Gatsby](https://www.gatsbyjs.com/) を使って作成しています．
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+### 注意：
 
-## 🚀 Quick start
+Github のアカウントがあることを前提にしています。
+大学関係者であれば[Github Pro アカウント](https://docs.github.com/ja/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/apply-for-an-educator-or-researcher-discount)を取得できます。
 
-1.  **Create a Gatsby site.**
+また、ビルドには `yarn` もしくは `npm` が必要になります。
 
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
+## 🚀 インストール
 
-    ```shell
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
-    ```
+まず、Github からクローンします。
+適当な作業ディレクトに移動して、以下を実行。
 
-1.  **Start developing.**
+```
+% git clone git@github.com:Github-ID/oe-japan-cms.git
+```
 
-    Navigate into your new site’s directory and start it up.
+ここで`Github-ID`は Github のアカウント名です。
 
-    ```shell
-    cd my-blog-starter/
-    gatsby develop
-    ```
+クローンしたディレクトに移動し、そこで作業します。
 
-1.  **Open the source code and start editing!**
+```
+% cd oe-japan-cms
+% ls
+CODE_OF_CONDUCT.md LICENSE            _headers           gatsby-node.js     netlify.toml       renovate.json      static
+CONTRIBUTING.md    README.md          gatsby-config.js   lambda             package.json       src                yarn.lock
+```
 
-    Your site is now running at `http://localhost:8000`!
+🧐 What's inside?
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+ディレクトリは以下のようになっています．
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+```
+$ tree -L 1
+.
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── _headers
+├── gatsby-config.js
+├── gatsby-node.js
+├── lambda
+├── netlify.toml
+├── node_modules
+├── package.json
+├── public
+├── renovate.json
+├── src
+├── static
+└── yarn.lock
+```
 
-## 🧐 What's inside?
+以下，重要なものだけ説明します．
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+/node_modules:
+ここに npm package でインストールしたモジュールが入ります．
+このディレクトリに対して特段のアクションは必要ありません．ほっとけば良いです．
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+/src:
+このディレクトリに公開用のファイルが一式入ります．
+つまり，ブラウザで表示するのに必要なファイルが格納されています．
+従って，このディレクトリに入っているファイルの修正，追加，削除することで Web ページのデザインを行います．
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+/static:
+このディレクトリは，Gatsby では参照されるのみで特段の操作は行いません．
+従って，こちらには画像ファイルや既に作成してある静的ファイルなどをおきます．
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+/public:
+公開用のディレクトリです．
+gatsby build を実行すると，このディレクトリに公開用ファイルが生成されます．
+また，gatsby clean を実行すると，このディレクトリとキャッシュがクリアされます．
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+.gitignore:
+Github リポジトリから除外するファイルを指定します．
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+gatsby-config.js:
+Gatsby サイトの設定ファイルです．
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+gatsby-node.js:
+Gatsby Node API の設定ファイルです．
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
+package-lock.json (See package.json below, first).
+npm によって自動生成されるファイルです．
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+package.json:
+Node で実行するパッケージを指定するファイルです．
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+README.md:
+このファイルです．
 
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+### 環境構築
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+`yarn` で環境構築を行います。
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+```
+% yarn
+```
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+`npm install` でも OK ですが、`yarn`の方が早いです。
+なお、`yarn`と`npm`を混在して使うと誤動作する場合がありますので、やめましょう。
 
-## 🎓 Learning Gatsby
+## ビルド (build)
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
+ビルドとは、サイトを公開するための html, Javascript や CSS ファイルを作成することを言います。
+ビルドが通れば Warning が出ても問題ありません。
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+ビルドは以下のコマンドで実行できます。
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+```
+% gatsby clean && gatsby build
+(npm run clean; npm run build でもOK)
+```
 
-## 💫 Deploy
+最初の `gatsby clean` はキャッシュや不要ファイルを削除するコマンドです。
+`npm run clean, npm run build` は `package.json`で定義されています。
 
-[Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/cloud/)
+## ディベロプ (develop)
 
-Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
+ディベロプとは、公開前の一次チェックをするために html, Javascript や CSS ファイルを作成することを言います。
+
+```
+% gatsby clean && gatsby develop
+(npm run clean; npm run develop でもOK)
+```
+
+http://localhost:8000/ で見ることができます．
+
+## 公開
+
+Github Actions を設定してありますので，github の main branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
+Github Actions の設定ファイルは `.github/workflows/manual.yml` です．
+
+# コンテンツの追加，修正，削除
+
+コンテンツデータは，src/pages に入っているマークダウンファイルです．
+
+```
+├── src
+│   ├── img
+│   ├── pages
+│   │   ├── 404.js
+│   │   ├── awards
+│   │   │   └── index.md
+│   │   ├── contact
+│   │   │   └── index.js
+│   │   ├── division
+│   │   │   ├── Data-Science.md
+│   │   │   ├── Doctoral-Education.md
+│   │   │   ├── High-School-University-Articulation.md
+│   │   │   ├── Instructional-Design-Team.md
+│   │   │   ├── Liberal-Arts.md
+│   │   │   ├── Life-Concept.md
+│   │   │   ├── Promotion-Planning-Office.md
+│   │   │   ├── QTA.md
+│   │   │   └── index.js
+│   │   ├── index.md
+│   │   ├── news
+│   │   │   ├── 2021-06-07-トップリーダートーク.md
+│   │   │   ├── 2021-06-07-名古屋大学全学教育物理学実験.md
+│   │   │   ├── 2021-06-24-化学実験ホームページ.md
+│   │   │   ├── 2021-07-13-アカデミック・イングリッシュ支援室（access）.md
+│   │   │   └── index.js
+│   │   └── tags
+│   │       └── index.js
+```
+
+## コンテンツの修正
+
+src/pages のマークダウンファイルを編集してください．
+
+## コンテンツの削除
+
+src/pages のマークダウンファイルを削除してください．
+
+## コンテンツの追加
+
+src/pages に新しいマークダウンファイルを追加してください．
+マークダウンファイルは，同じディレクトリにあるファイルをコピーし，ファイル名を変更して作成するのが早いです．
+このとき，マークダウンファイルに記載のフォーマットは変更しないようにしてください．
+特に上段の Frontmatter の項目は Gatsby が参照しますので，コロン以降のみ変更するようにしてください．
+
+以下，src/news の 2021-06-07-トップリーダートーク.md を例に説明します．
+
+ファイル名がそのまま slug になります．たとえば，この例ですと，
+
+https://ac.thers.ac.jp/news/2021-06-07-トップリーダートーク/
+
+となります．たぶん大丈夫だとは思いますが，ファイル名は英数字の方が安全かと思われます．
+
+src/news/2021-06-07-トップリーダートーク.md は以下のようになっています．
+
+```
+templateKey: blog-post
+title: トップリーダートーク
+date: 2021-05-06T10:05:39.789Z
+description: >-
+  トップリーダートークでは、各界の指導的立場にある産学官のトップリーダーを招き、レクチャーやディスカッションを通じてトップの役割や使命、リーダーシップのあり方などを直接学ぶ機会を提供しています。
+
+  今回は東海国立大学機構長・名古屋大学総長である松尾清一氏をお招きし、「私の歩んできた道ー安定は動の中に在り」というテーマで講演をしていただきます。
+featuredpost: true
+featuredimage: /img/coffee.png
+tags:
+  - トップリーダートーク
+  - 博士課程教育推進機構
+  - 松尾清一氏（東海国立大学機構長・名古屋大学総長）
+---
+
+# 松尾清一氏（東海国立大学機構長・名古屋大学総長）
+
+参加にあたって 2 種類の参加方法があります。
+.....
+
+```
+
+ここで，`templateKey: blog-post` は変更してはいけません．
+この templateKey は src/pages 以下のディレクトリでそれぞれ指定され，指定されたテンプレートを利用して表示用ファイルが生成されます．
+News の場合は templateKey を blog-post と指定しています．なお，awards の場合は awards-page と指定します．
+
+`title` はタイトルですので，適宜修正してください．
+
+`description` は概要ですので，適宜修正してください．
+
+`featuredpost: true` はそのまま変更しなくて結構です．
+
+`featuredimage` はアイキャッチ画像になります．ディフォルト画像は static/img/ にある画像です．
+アップロードして利用したい場合には static/img/ におき，/img/ファイル名 で指定してください．
+たとえば，static/img/ac1.jpg を指定する場合は `featuredimage: /img/ac1.jpg` となります．
+
+`date` は掲載日ですので，適宜修正してください．
+
+`tags` はタグになります．タグは上に記載のように「-」で一行にひとつ書いてください．
+
+ここまでが，Frontmatter です．
+「---」以降が本文になり，マークダウン形式で記載してください．
+
+この例ですと
+
+```
+# 松尾清一氏（東海国立大学機構長・名古屋大学総長）
+
+参加にあたって 2 種類の参加方法があります。
+．．．
+```
+
+が本文になり，マークダウン形式で記載されています．
+
+# Github でのデータの追加・修正・削除
+
+このサイトは Github Actions を設定してあります．
+Github の main branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
+
+従って，データ修正は main branch では行わず，branch をきってからデータ修正を行ってください．
+データ修正後は `gatsby develop` で問題無いことを確認の上，pull request を行い，main branch へマージしてください．
+
+面倒ですが，main branch とは異なる branch で作業することで，思わぬミスを防ぐことができますので安全です．
+
+# Netlify CMS でのデータの追加・修正・削除
+
+データの追加・修正・削除は [Netlify CMS](https://academic-central.netlify.app/admin/#/collections/news)でもできます。
+
+Netlify CMS へアクセスすると以下のように表示されます。
+コンテンツの追加・修正・削除はここから行ってください。
+
+<img width="988" alt="スクリーンショット 2021-10-19 14 01 34" src="https://user-images.githubusercontent.com/12372151/137847935-cd017206-0e24-435f-8190-b6654d063e3d.png">
+
+画像は上の「Media」ボタンを押下することで追加・修正・削除ができます。
+
+<img width="1122" alt="スクリーンショット 2021-10-19 14 18 22" src="https://user-images.githubusercontent.com/12372151/137848370-4357adef-0663-4cef-bdd6-922976f30c2a.png">
