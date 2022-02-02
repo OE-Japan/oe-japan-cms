@@ -22,7 +22,7 @@ Github のアカウントがあることを前提にしています。
 適当な作業ディレクトに移動して、以下を実行。
 
 ```
-% git clone git@github.com:Github-ID/oe-japan-cms.git
+$ git clone git@github.com:Github-ID/oe-japan-cms.git
 ```
 
 ここで`Github-ID`は Github のアカウント名です。
@@ -30,10 +30,9 @@ Github のアカウントがあることを前提にしています。
 クローンしたディレクトに移動し、そこで作業します。
 
 ```
-% cd oe-japan-cms
-% ls
-CODE_OF_CONDUCT.md LICENSE            _headers           gatsby-node.js     netlify.toml       renovate.json      static
-CONTRIBUTING.md    README.md          gatsby-config.js   lambda             package.json       src                yarn.lock
+$ cd oe-japan-cms
+$ ls
+LICENSE          README.md        _headers         gatsby-config.js gatsby-node.js   lambda           netlify.toml     package.json     renovate.json    src              static
 ```
 
 🧐 What's inside?
@@ -43,8 +42,6 @@ CONTRIBUTING.md    README.md          gatsby-config.js   lambda             pack
 ```
 $ tree -L 1
 .
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
 ├── _headers
@@ -54,17 +51,19 @@ $ tree -L 1
 ├── netlify.toml
 ├── node_modules
 ├── package.json
-├── public
 ├── renovate.json
 ├── src
 ├── static
 └── yarn.lock
+
+4 directories, 9 files
 ```
 
 以下，重要なものだけ説明します．
 
 /node_modules:
 ここに npm package でインストールしたモジュールが入ります．
+後述する`yarn`を実行すると作成されます．
 このディレクトリに対して特段のアクションは必要ありません．ほっとけば良いです．
 
 /src:
@@ -104,7 +103,7 @@ README.md:
 `yarn` で環境構築を行います。
 
 ```
-% yarn
+$ yarn
 ```
 
 `npm install` でも OK ですが、`yarn`の方が早いです。
@@ -118,7 +117,7 @@ README.md:
 ビルドは以下のコマンドで実行できます。
 
 ```
-% gatsby clean && gatsby build
+$ gatsby clean && gatsby build
 (npm run clean; npm run build でもOK)
 ```
 
@@ -130,7 +129,7 @@ README.md:
 ディベロプとは、公開前の一次チェックをするために html, Javascript や CSS ファイルを作成することを言います。
 
 ```
-% gatsby clean && gatsby develop
+$ gatsby clean && gatsby develop
 (npm run clean; npm run develop でもOK)
 ```
 
@@ -138,41 +137,51 @@ http://localhost:8000/ で見ることができます．
 
 ## 公開
 
-Github Actions を設定してありますので，github の main branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
+Github Actions を設定してありますので，github の master branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
 Github Actions の設定ファイルは `.github/workflows/manual.yml` です．
 
 # コンテンツの追加，修正，削除
 
-コンテンツデータは，src/pages に入っているマークダウンファイルです．
+コンテンツデータは，src/pages に入っているマークダウンファイル（拡張子が`.md`）です．
 
 ```
-├── src
-│   ├── img
-│   ├── pages
-│   │   ├── 404.js
-│   │   ├── awards
-│   │   │   └── index.md
-│   │   ├── contact
-│   │   │   └── index.js
-│   │   ├── division
-│   │   │   ├── Data-Science.md
-│   │   │   ├── Doctoral-Education.md
-│   │   │   ├── High-School-University-Articulation.md
-│   │   │   ├── Instructional-Design-Team.md
-│   │   │   ├── Liberal-Arts.md
-│   │   │   ├── Life-Concept.md
-│   │   │   ├── Promotion-Planning-Office.md
-│   │   │   ├── QTA.md
-│   │   │   └── index.js
-│   │   ├── index.md
-│   │   ├── news
-│   │   │   ├── 2021-06-07-トップリーダートーク.md
-│   │   │   ├── 2021-06-07-名古屋大学全学教育物理学実験.md
-│   │   │   ├── 2021-06-24-化学実験ホームページ.md
-│   │   │   ├── 2021-07-13-アカデミック・イングリッシュ支援室（access）.md
-│   │   │   └── index.js
-│   │   └── tags
-│   │       └── index.js
+$ tree
+.
+├── 404.js
+├── about
+│   └── index.md
+├── contact
+│   ├── member.js
+│   └── thanks.js
+├── history
+│   └── index.md
+├── index.md
+├── members
+│   └── index.md
+├── news
+│   ├── 2015-JOCW-General-Assembly.md
+│   ├── 2016-JOCW-General-Assembly.md
+│   ├── 2017-JOCW-General-Assembly.md
+│   ├── 2018-JOCW-General-Assembly.md
+│   ├── 2018-JOCW-International-Workshop.md
+│   ├── Activities-of-participating-organizations?\200\224Hokkaido-University.md
+│   ├── Creative-Commons-License-Study-Meeting.md
+│   ├── Educational-Reform-Pioneered-by-Open-Education?\200\224Learning-from-the-World?\200\231s-Most-Advanced-Cases.md
+│   ├── Infoed2008-Global-Trends-in-Open-Content.md
+│   ├── Infoed2010-Impact-and-Future-Prospects-of-Open-Courseware.md
+│   ├── JSEE2009-Open-Content-and-its-Applications.md
+│   ├── JSEE2010-OpenCourseWare-and-its-Applications.md
+│   ├── Japanese-translation-of-the-Paris-OER-Declaration.md
+│   ├── Open-Education-Global-2017.md
+│   ├── Open-Education-Global-Conference-2015.md
+│   ├── Open-Education-Leadership-Summit-?\217\202?\212?報?\221\212.md
+│   ├── Past-Events.md
+│   ├── Past-Topics.md
+│   ├── Report-on-the-2018-JOCW-International-Workshop.md
+│   ├── Special-Lecture?\200\224From-OpenCourseWare-to-Open-Education.md
+│   └── index.js
+└── tags
+    └── index.js
 ```
 
 ## コンテンツの修正
@@ -190,42 +199,47 @@ src/pages に新しいマークダウンファイルを追加してください�
 このとき，マークダウンファイルに記載のフォーマットは変更しないようにしてください．
 特に上段の Frontmatter の項目は Gatsby が参照しますので，コロン以降のみ変更するようにしてください．
 
-以下，src/news の 2021-06-07-トップリーダートーク.md を例に説明します．
+以下，src/news の Activities-of-participating-organizations-Hokkaido-University.md を例に説明します．
 
 ファイル名がそのまま slug になります．たとえば，この例ですと，
 
-https://ac.thers.ac.jp/news/2021-06-07-トップリーダートーク/
+https://oejapan.org/news/Activities-of-participating-organizations-Hokkaido-University/
 
 となります．たぶん大丈夫だとは思いますが，ファイル名は英数字の方が安全かと思われます．
 
-src/news/2021-06-07-トップリーダートーク.md は以下のようになっています．
+src/news/Activities-of-participating-organizations-Hokkaido-University.md は以下のようになっています．
 
 ```
-templateKey: blog-post
-title: トップリーダートーク
-date: 2021-05-06T10:05:39.789Z
-description: >-
-  トップリーダートークでは、各界の指導的立場にある産学官のトップリーダーを招き、レクチャーやディスカッションを通じてトップの役割や使命、リーダーシップのあり方などを直接学ぶ機会を提供しています。
-
-  今回は東海国立大学機構長・名古屋大学総長である松尾清一氏をお招きし、「私の歩んできた道ー安定は動の中に在り」というテーマで講演をしていただきます。
-featuredpost: true
-featuredimage: /img/coffee.png
-tags:
-  - トップリーダートーク
-  - 博士課程教育推進機構
-  - 松尾清一氏（東海国立大学機構長・名古屋大学総長）
 ---
+templateKey: blog-post
+title: 参加団体の活動 北海道大学
+date: 2019-5-28T14:13:10.000Z
+featuredpost: true
+featuredimage: /img/blog/huocw.png
+description: 参加団体の活動報告です。第1回は北海道大学です。
+tags:
+  - 北海道大学
+  - 活動報告
+---
+![](/img/blog/huocw.png)
+[北海道大学オープンコースウェア　https://ocw.hokudai.ac.jp/](https://ocw.hokudai.ac.jp/)
 
-# 松尾清一氏（東海国立大学機構長・名古屋大学総長）
+北海道大学オープンエデュケーションセンターでは、OERの開発と活用を通じた教育改善を推進しています。学内教育に用いるeラーニング教材の開発と授業への導入、OCWやMOOCの公開に取り組んでいます。
 
-参加にあたって 2 種類の参加方法があります。
-.....
+北海道大学はオープンコースウェア（HU-OCW）を開設しています。最近では、農学研究院で実施された「食と農に関するリスクコミュニケーション」での７講義を配信しました。本講義は大学内に今のところ存在しない座学でのリスクコミュニケーション教育と、それを受講した上での実社会での対話の取組を行う学内外向けカリキュラムの一部をオープン教材として公開したものとなります。また水産化学研究院が中心となって実施された『食物の発酵と熟成』（第3回北海道食文化研究会セミナー）を公開しました。発酵食品の味について味覚センサーを用いた研究を紹介しています。
 
+OERの開発については、保健科学研究院で実施しているベッドメイキング等の実技の見本を撮影し、学内向けに配信しています。学生が繰り返し視聴することで実技試験対策に用いられています。
+教材改善活動もOERを活用することと並行して進められています。演習科目「大学生のための情報社会入門」では、OERを用いて反転授業が開講中です。今後学生のビデオ視聴データやクイズの回答状況などについて、開発した可視化ツールを用いて分析作業を行う予定です。
+
+![](/img/blog/eow.jpg)
+MOOC「戦争倫理学」
+
+そして、講義で活用したOERを利用したMOOC開講の準備も行っています。本学では毎年１つMOOC開講を実施することを目標に活動しています。最近では「戦争倫理学」の再開講を実施し、先月4月末日をもって無事閉講となりました。今年度は、教養教育での演習科目である「放射線・放射能の科学」で用いている反転授業向け教材をもとにしたMOOCを開講予定です。
 ```
 
 ここで，`templateKey: blog-post` は変更してはいけません．
 この templateKey は src/pages 以下のディレクトリでそれぞれ指定され，指定されたテンプレートを利用して表示用ファイルが生成されます．
-News の場合は templateKey を blog-post と指定しています．なお，awards の場合は awards-page と指定します．
+News の場合は templateKey を blog-post と指定しています．なお，members の場合は `templateKey: 'members-page'` と指定します．
 
 `title` はタイトルですので，適宜修正してください．
 
@@ -234,8 +248,8 @@ News の場合は templateKey を blog-post と指定しています．なお，
 `featuredpost: true` はそのまま変更しなくて結構です．
 
 `featuredimage` はアイキャッチ画像になります．ディフォルト画像は static/img/ にある画像です．
-アップロードして利用したい場合には static/img/ におき，/img/ファイル名 で指定してください．
-たとえば，static/img/ac1.jpg を指定する場合は `featuredimage: /img/ac1.jpg` となります．
+アップロードして利用したい場合には static/img/blog におき，/img/blog/ファイル名 で指定してください．
+たとえば，/static/img/blog/huocw.png を指定する場合は `featuredimage: /img/blog/huocw.png` となります．
 
 `date` は掲載日ですので，適宜修正してください．
 
@@ -247,10 +261,20 @@ News の場合は templateKey を blog-post と指定しています．なお，
 この例ですと
 
 ```
-# 松尾清一氏（東海国立大学機構長・名古屋大学総長）
+![](/img/blog/huocw.png)
+[北海道大学オープンコースウェア　https://ocw.hokudai.ac.jp/](https://ocw.hokudai.ac.jp/)
 
-参加にあたって 2 種類の参加方法があります。
-．．．
+北海道大学オープンエデュケーションセンターでは、OERの開発と活用を通じた教育改善を推進しています。学内教育に用いるeラーニング教材の開発と授業への導入、OCWやMOOCの公開に取り組んでいます。
+
+北海道大学はオープンコースウェア（HU-OCW）を開設しています。最近では、農学研究院で実施された「食と農に関するリスクコミュニケーション」での７講義を配信しました。本講義は大学内に今のところ存在しない座学でのリスクコミュニケーション教育と、それを受講した上での実社会での対話の取組を行う学内外向けカリキュラムの一部をオープン教材として公開したものとなります。また水産化学研究院が中心となって実施された『食物の発酵と熟成』（第3回北海道食文化研究会セミナー）を公開しました。発酵食品の味について味覚センサーを用いた研究を紹介しています。
+
+OERの開発については、保健科学研究院で実施しているベッドメイキング等の実技の見本を撮影し、学内向けに配信しています。学生が繰り返し視聴することで実技試験対策に用いられています。
+教材改善活動もOERを活用することと並行して進められています。演習科目「大学生のための情報社会入門」では、OERを用いて反転授業が開講中です。今後学生のビデオ視聴データやクイズの回答状況などについて、開発した可視化ツールを用いて分析作業を行う予定です。
+
+![](/img/blog/eow.jpg)
+MOOC「戦争倫理学」
+
+そして、講義で活用したOERを利用したMOOC開講の準備も行っています。本学では毎年１つMOOC開講を実施することを目標に活動しています。最近では「戦争倫理学」の再開講を実施し、先月4月末日をもって無事閉講となりました。今年度は、教養教育での演習科目である「放射線・放射能の科学」で用いている反転授業向け教材をもとにしたMOOCを開講予定です。
 ```
 
 が本文になり，マークダウン形式で記載されています．
@@ -258,12 +282,12 @@ News の場合は templateKey を blog-post と指定しています．なお，
 # Github でのデータの追加・修正・削除
 
 このサイトは Github Actions を設定してあります．
-Github の main branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
+Github の master branch に push すると自動でスクリプトが走り，公開ファイルを転送します．
 
-従って，データ修正は main branch では行わず，branch をきってからデータ修正を行ってください．
-データ修正後は `gatsby develop` で問題無いことを確認の上，pull request を行い，main branch へマージしてください．
+従って，データ修正は master branch では行わず，branch をきってからデータ修正を行ってください．
+データ修正後は `gatsby develop` で問題無いことを確認の上，pull request を行い，master branch へマージしてください．
 
-面倒ですが，main branch とは異なる branch で作業することで，思わぬミスを防ぐことができますので安全です．
+面倒ですが，master branch とは異なる branch で作業することで，思わぬミスを防ぐことができますので安全です．
 
 # Netlify CMS でのデータの追加・修正・削除
 
