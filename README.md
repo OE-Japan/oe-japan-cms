@@ -164,9 +164,9 @@ $ tree
 │   ├── 2017-JOCW-General-Assembly.md
 │   ├── 2018-JOCW-General-Assembly.md
 │   ├── 2018-JOCW-International-Workshop.md
-│   ├── Activities-of-participating-organizations?\200\224Hokkaido-University.md
+│   ├── Activities-of-participating-organizations-Hokkaido-University.md
 │   ├── Creative-Commons-License-Study-Meeting.md
-│   ├── Educational-Reform-Pioneered-by-Open-Education?\200\224Learning-from-the-World?\200\231s-Most-Advanced-Cases.md
+│   ├── Educational-Reform-Pioneered-by-Open-Education-Learning-from-the-World-Most-Advanced-Cases.md
 │   ├── Infoed2008-Global-Trends-in-Open-Content.md
 │   ├── Infoed2010-Impact-and-Future-Prospects-of-Open-Courseware.md
 │   ├── JSEE2009-Open-Content-and-its-Applications.md
@@ -174,14 +174,16 @@ $ tree
 │   ├── Japanese-translation-of-the-Paris-OER-Declaration.md
 │   ├── Open-Education-Global-2017.md
 │   ├── Open-Education-Global-Conference-2015.md
-│   ├── Open-Education-Leadership-Summit-?\217\202?\212?報?\221\212.md
+│   ├── Open-Education-Leadership-Summit.md
 │   ├── Past-Events.md
 │   ├── Past-Topics.md
 │   ├── Report-on-the-2018-JOCW-International-Workshop.md
-│   ├── Special-Lecture?\200\224From-OpenCourseWare-to-Open-Education.md
+│   ├── Special-Lecture-From-OpenCourseWare-to-Open-Education.md
 │   └── index.js
 └── tags
     └── index.js
+
+6 directories, 29 files
 ```
 
 ## コンテンツの修正
