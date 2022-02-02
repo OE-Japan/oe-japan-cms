@@ -50,7 +50,7 @@ jobs:
 
       # rsync の設定
       - name: Rsync deployments to sakura.ne.jp
-        uses: burnett01/rsync-deployments@4.1
+        uses: burnett01/rsync-deployments@5.2
         with:
           # switches: -avzr --delete --omit-dir-times
           switches: -rlOtcv --delete --omit-dir-times

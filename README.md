@@ -12,7 +12,7 @@
 ### 注意：
 
 Github のアカウントがあることを前提にしています。
-大学関係者であれば[Github Pro アカウント](https://docs.github.com/ja/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/apply-for-an-educator-or-researcher-discount)を取得できます。
+大学関係者であれば [Github Pro アカウント](https://docs.github.com/ja/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/apply-for-an-educator-or-researcher-discount) を取得できます。
 
 また、ビルドには `yarn` もしくは `npm` が必要になります。
 
