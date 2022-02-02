@@ -291,13 +291,6 @@ Github の master branch に push すると自動でスクリプトが走り，�
 
 # Netlify CMS でのデータの追加・修正・削除
 
-データの追加・修正・削除は [Netlify CMS](https://academic-central.netlify.app/admin/#/collections/news)でもできます。
+データの追加・修正・削除は [Netlify CMS](https://oe-japan.netlify.app/admin/)でもできます。
 
-Netlify CMS へアクセスすると以下のように表示されます。
-コンテンツの追加・修正・削除はここから行ってください。
-
-<img width="988" alt="スクリーンショット 2021-10-19 14 01 34" src="https://user-images.githubusercontent.com/12372151/137847935-cd017206-0e24-435f-8190-b6654d063e3d.png">
-
-画像は上の「Media」ボタンを押下することで追加・修正・削除ができます。
-
-<img width="1122" alt="スクリーンショット 2021-10-19 14 18 22" src="https://user-images.githubusercontent.com/12372151/137848370-4357adef-0663-4cef-bdd6-922976f30c2a.png">
+設定がまだできていないので，もう少しお待ちください．
