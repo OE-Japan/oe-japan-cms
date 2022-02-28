@@ -1,5 +1,5 @@
-import React from "react";
-import Layout from "../../components/Layout";
+import React from 'react'
+import Layout from '../../components/Layout'
 
 // export default () => (
 const Thanks = () => (
@@ -12,6 +12,6 @@ const Thanks = () => (
       </div>
     </section>
   </Layout>
-);
+)
 
-export default Thanks;
+export default Thanks
