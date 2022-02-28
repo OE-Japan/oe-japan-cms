@@ -34,7 +34,7 @@ jobs:
       - run: npm audit fix
       # yarn へ変更
       # - run: yarn
-      # - run: npm run build
+      - run: npm run build
 
       - name: Publish using netlify
         uses: netlify/actions/cli@master
