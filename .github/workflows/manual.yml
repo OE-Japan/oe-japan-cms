@@ -30,11 +30,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      # - run: npm ci
-      # - run: npm audit fix
+      - run: npm ci
+      - run: npm audit fix
       # yarn へ変更
-      - run: yarn
-      - run: npm run build
+      # - run: yarn
+      # - run: npm run build
 
       - name: Publish using netlify
         uses: netlify/actions/cli@master

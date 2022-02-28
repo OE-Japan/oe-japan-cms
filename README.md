@@ -9,7 +9,7 @@
 
 このサイトは [Gatsby](https://www.gatsbyjs.com/) を使って作成しています．
 
-### 注意：
+### 注意
 
 Github のアカウントがあることを前提にしています。
 大学関係者であれば [Github Pro アカウント](https://docs.github.com/ja/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/apply-for-an-educator-or-researcher-discount) を取得できます。
@@ -22,7 +22,7 @@ Github のアカウントがあることを前提にしています。
 適当な作業ディレクトに移動して、以下を実行。
 
 ```
-$ git clone git@github.com:Github-ID/oe-japan-cms.git
+git clone git@github.com:Github-ID/oe-japan-cms.git
 ```
 
 ここで`Github-ID`は Github のアカウント名です。
@@ -103,7 +103,7 @@ README.md:
 `yarn` で環境構築を行います。
 
 ```
-$ yarn
+yarn
 ```
 
 `npm install` でも OK ですが、`yarn`の方が早いです。
@@ -133,7 +133,7 @@ $ gatsby clean && gatsby develop
 (npm run clean; npm run develop でもOK)
 ```
 
-http://localhost:8000/ で見ることができます．
+<http://localhost:8000/> で見ることができます．
 
 ## 公開
 
@@ -205,7 +205,7 @@ src/pages に新しいマークダウンファイルを追加してください�
 
 ファイル名がそのまま slug になります．たとえば，この例ですと，
 
-https://oejapan.org/news/Activities-of-participating-organizations-Hokkaido-University/
+<https://oejapan.org/news/Activities-of-participating-organizations-Hokkaido-University/>
 
 となります．ファイル名が日本語でも大丈夫だとは思いますが，英数字の方が何かと安全ですのでファイル名は英数字としてください．
 
