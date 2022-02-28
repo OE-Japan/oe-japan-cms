@@ -31,20 +31,19 @@ collections:
     label: "Pages"
     files:
       - file: "src/pages/index.md"
-        label: "Landing Page"
-        name: "index"
+        label: "Top Page"
+        name: "top"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page" }
           - { label: Title, name: title, widget: string }
           - { label: Subtitle, name: subtitle, widget: string }
-          - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Description, name: description, widget: string }
-
           - { label: oe, name: OE, fields: [{ label: Image, name: image, widget: image }, { label: Text, name: text, widget: string }] }
           - { label: oer, name: OER, fields: [{ label: Image, name: image, widget: image }, { label: Text, name: text, widget: string }] }
           - { label: ocw, name: OCW, fields: [{ label: Image, name: image, widget: image }, { label: Text, name: text, widget: string }] }
           - { label: moocs, name: MOOCS, fields: [{ label: Image, name: image, widget: image }, { label: Text, name: text, widget: string }] }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
