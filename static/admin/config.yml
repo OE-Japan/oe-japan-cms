@@ -29,7 +29,7 @@ collections:
 
   - name: "history"
     label: "History"
-    folder: "src/pages/history/index.md"
+    folder: "src/pages/history"
     create: true
     slug: "{{slug}}"
     fields:
