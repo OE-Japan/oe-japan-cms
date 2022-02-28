@@ -307,3 +307,4 @@ Github の master branch に push すると自動でスクリプトが走り，�
 データの追加・修正・削除は [Netlify CMS](https://oe-japan.netlify.app/admin/) でもできます。
 
 設定がまだできていないので，もう少しお待ちください．
+確認しています．
