@@ -31,7 +31,7 @@ export const MembersTemplate = ({
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
                 <ul className="taglist">
-                  {tags.map(tag => (
+                  {tags.map((tag) => (
                     <li key={tag + `tag`}>
                       <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                     </li>

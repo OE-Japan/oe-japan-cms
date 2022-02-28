@@ -5,10 +5,10 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 // import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 
 class BlogTopRoll extends React.Component {
-// const BlogTopRoll = props => {
+  // const BlogTopRoll = props => {
   render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    const { data } = this.props
+    const { edges: posts } = data.allMarkdownRemark
 
     return (
       <div className="columns is-multiline">
@@ -17,18 +17,20 @@ class BlogTopRoll extends React.Component {
             <div className="is-parent column is-6" key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost == 'true' ? 'is-featured' : 'featured'
+                  post.frontmatter.featuredpost == 'true'
+                    ? 'is-featured'
+                    : 'featured'
                 }`}
               >
                 <header>
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                        }}
-                      />
-                    </div>
+                  <div className="featured-thumbnail">
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: post.frontmatter.featuredimage,
+                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                      }}
+                    />
+                  </div>
                   <p className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
@@ -54,9 +56,9 @@ class BlogTopRoll extends React.Component {
             </div>
           ))}
       </div>
-    );
-  };
-};
+    )
+  }
+}
 
 BlogTopRoll.propTypes = {
   data: PropTypes.shape({
@@ -89,7 +91,11 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+                    gatsbyImageData(
+                      width: 240
+                      quality: 100
+                      layout: CONSTRAINED
+                    )
                   }
                 }
                 description

@@ -1,7 +1,7 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import SeO from "../components/seo";
+import SeO from '../components/seo'
 import Layout from '../components/Layout'
 // import Features from '../components/Features'
 import BlogTopRoll from '../components/BlogTopRoll'
@@ -11,14 +11,18 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const IndexPageTemplate = ({ data }) => (
   <Layout>
-    <SeO title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description} />
-      <div className="full-width-image margin-top-0"
+    <SeO
+      title={data.markdownRemark.frontmatter.title}
+      description={data.markdownRemark.frontmatter.description}
+    />
+    <div
+      className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(/img/sunrise.jpg)`,
         backgroundPosition: `top right`,
         backgroundAttachment: `fixed`,
       }}
-      >
+    >
       <div
         style={{
           display: 'flex',
@@ -37,20 +41,20 @@ const IndexPageTemplate = ({ data }) => (
             padding: '0.25em',
           }}
         >
-           {data.markdownRemark.frontmatter.title}
-         </h1>
-         <h3
-           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered  "
-           style={{
-             color: 'white',
-             lineHeight: '1',
-             padding: '0.25em',
-           }}
-         >
-           {data.markdownRemark.frontmatter.subtitle}
-         </h3>
-       </div>
-     </div>
+          {data.markdownRemark.frontmatter.title}
+        </h1>
+        <h3
+          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered  "
+          style={{
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
+          }}
+        >
+          {data.markdownRemark.frontmatter.subtitle}
+        </h3>
+      </div>
+    </div>
 
     <section className="section section--gradient">
       <div className="container">
@@ -59,15 +63,26 @@ const IndexPageTemplate = ({ data }) => (
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <section className="content" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+                  <section
+                    className="content"
+                    dangerouslySetInnerHTML={{
+                      __html: data.markdownRemark.html,
+                    }}
+                  />
                 </div>
 
                 <div className="columns is-multiline">
                   <div className="column is-6">
                     <section className="section">
                       <div className="has-text-centered">
-                        <div style={{width: "240px", display: "inline-block"}} >
-                            <StaticImage src="../../static/img/oe.png" alt="Open Education" placeholder="blurred" />
+                        <div
+                          style={{ width: '240px', display: 'inline-block' }}
+                        >
+                          <StaticImage
+                            src="../../static/img/oe.png"
+                            alt="Open Education"
+                            placeholder="blurred"
+                          />
                         </div>
                       </div>
                       <br />
@@ -77,8 +92,14 @@ const IndexPageTemplate = ({ data }) => (
                   <div className="column is-6">
                     <section className="section">
                       <div className="has-text-centered">
-                        <div style={{width: "240px", display: "inline-block"}} >
-                            <StaticImage src="../../static/img/oer.png" alt="Open Educational Resources" placeholder="blurred" />
+                        <div
+                          style={{ width: '240px', display: 'inline-block' }}
+                        >
+                          <StaticImage
+                            src="../../static/img/oer.png"
+                            alt="Open Educational Resources"
+                            placeholder="blurred"
+                          />
                         </div>
                       </div>
                       <br />
@@ -91,8 +112,14 @@ const IndexPageTemplate = ({ data }) => (
                   <div className="column is-6">
                     <section className="section">
                       <div className="has-text-centered">
-                        <div style={{width: "240px", display: "inline-block"}} >
-                            <StaticImage src="../../static/img/ocw.png" alt="OpenCourseWare" placeholder="blurred" />
+                        <div
+                          style={{ width: '240px', display: 'inline-block' }}
+                        >
+                          <StaticImage
+                            src="../../static/img/ocw.png"
+                            alt="OpenCourseWare"
+                            placeholder="blurred"
+                          />
                         </div>
                       </div>
                       <br />
@@ -102,8 +129,14 @@ const IndexPageTemplate = ({ data }) => (
                   <div className="column is-6">
                     <section className="section">
                       <div className="has-text-centered">
-                        <div style={{width: "240px", display: "inline-block"}} >
-                            <StaticImage src="../../static/img/mooc.png" alt="MOOCs" placeholder="blurred" />
+                        <div
+                          style={{ width: '240px', display: 'inline-block' }}
+                        >
+                          <StaticImage
+                            src="../../static/img/mooc.png"
+                            alt="MOOCs"
+                            placeholder="blurred"
+                          />
                         </div>
                       </div>
                       <br />
@@ -112,14 +145,16 @@ const IndexPageTemplate = ({ data }) => (
                   </div>
                 </div>
                 <div className="columns">
-                   <div className="column is-12 has-text-centered">
-                     <Link className="btn" to="/history">
-                       See our history
-                     </Link>
-                   </div>
-                 </div>
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/history">
+                      See our history
+                    </Link>
+                  </div>
+                </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">News and Updates</h3>
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    News and Updates
+                  </h3>
                   <BlogTopRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/news">
@@ -127,7 +162,6 @@ const IndexPageTemplate = ({ data }) => (
                     </Link>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -135,9 +169,9 @@ const IndexPageTemplate = ({ data }) => (
       </div>
     </section>
   </Layout>
-);
+)
 
-export default IndexPageTemplate;
+export default IndexPageTemplate
 
 export const pageQuery = graphql`
   query IndexPageQuery {
@@ -148,29 +182,28 @@ export const pageQuery = graphql`
       }
       pathPrefix
     }
-    markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
-        id
-        html
-        frontmatter {
-          description
-          heading
-          moocs {
-            text
-          }
-          ocw {
-            text
-          }
-          oe {
-            text
-          }
-          oer {
-            text
-          }
-          subtitle
-          templateKey
-          title
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      id
+      html
+      frontmatter {
+        description
+        heading
+        moocs {
+          text
         }
+        ocw {
+          text
+        }
+        oe {
+          text
+        }
+        oer {
+          text
+        }
+        subtitle
+        templateKey
+        title
       }
-}
-
-`;
+    }
+  }
+`

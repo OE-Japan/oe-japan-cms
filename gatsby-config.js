@@ -4,8 +4,8 @@ module.exports = {
     description: 'We foster open education and open educational materials.',
     siteUrl: `https://oejapan.org/`,
     social: {
-      facebook: `https://www.facebook.com/JapanOCWConsortium/`
-    }
+      facebook: `https://www.facebook.com/JapanOCWConsortium/`,
+    },
   },
   plugins: [
     'gatsby-plugin-image',

@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../../components/Layout'
 
 // export default () => (
-const Member2018 = () =>(
+const Member2018 = () => (
   <Layout>
     <section className="section">
       <div className="container">
@@ -582,4 +582,4 @@ const Member2018 = () =>(
   </Layout>
 )
 
-export default Member2018;
+export default Member2018
