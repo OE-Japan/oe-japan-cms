@@ -8,7 +8,7 @@ backend:
     uploadMedia: "[skip ci] Upload “{{path}}”"
     deleteMedia: "[skip ci] Delete “{{path}}”"
 
-media_folder: static/img
+media_folder: static/img/blog
 public_folder: /img
 
 collections:
@@ -40,10 +40,10 @@ collections:
           - { label: Heading, name: heading, widget: string }
           - { label: Description, name: description, widget: string }
           - { label: "Body", name: "body", widget: "markdown" }
-          - { label: OE, name: oe, fields: [{ label: Image, name: image, widget: image }, { label: Text, name: text, widget: string }] }
-          - { label: OER, name: oer, fields: [{ label: Image, name: image, widget: image }, { label: Text, name: text, widget: string }] }
-          - { label: OCW, name: ocw, fields: [{ label: Image, name: image, widget: image }, { label: Text, name: text, widget: string }] }
-          - { label: MOOCS, name: moocs, fields: [{ label: Image, name: image, widget: image }, { label: Text, name: text, widget: string }] }
+          - { label: OE, name: oe, fields: [{ label: OEImage, name: oeimage, widget: image }, { label: OEText, name: oetext, widget: string }] }
+          - { label: OER, name: oer, fields: [{ label: OERImage, name: oerimage, widget: image }, { label: OERText, name: text, widget: string }] }
+          - { label: OCW, name: ocw, fields: [{ label: OCWImage, name: ocwimage, widget: image }, { label: OCWText, name: text, widget: string }] }
+          - { label: MOOCS, name: moocs, fields: [{ label: MOOCSImage, name: moocsimage, widget: image }, { label: MOOCSText, name: moocstext, widget: string }] }
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
