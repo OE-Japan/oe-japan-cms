@@ -45,7 +45,7 @@ collections:
 
   - name: "members"
     label: "Members"
-    folder: "src/pages/members/index.md"
+    folder: "src/pages/members"
     create: true
     slug: "{{slug}}"
     fields:
