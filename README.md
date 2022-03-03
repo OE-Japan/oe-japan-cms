@@ -308,4 +308,4 @@ Github の master branch に push すると自動でスクリプトが走り，�
 
 設定がまだできていないので，もう少しお待ちください．
 
-<img width="1445" alt="スクリーンショット 2022-03-03 17 50 04" src="https://user-images.githubusercontent.com/12372151/156529960-44de300a-86fa-4279-9a0f-23dc5c1a46b2.png">
+<img width="1445" alt="スクリーンショット 2022-03-03 17 50 04" src="https://user-images.githubusercontent.com/12372151/156530714-5140a2ba-5fbb-485a-b576-824db81f58cf.png">
