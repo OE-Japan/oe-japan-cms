@@ -306,6 +306,16 @@ Github の master branch に push すると自動でスクリプトが走り，�
 
 データの追加・修正・削除は [Netlify CMS](https://oe-japan.netlify.app/admin/) でもできます。
 
-設定がまだできていないので，もう少しお待ちください．
+[Netlify CMS](https://oe-japan.netlify.app/admin/) にアクセスすると次のようになります．
 
 <img width="1445" alt="スクリーンショット 2022-03-03 17 50 04" src="https://user-images.githubusercontent.com/12372151/156530714-5140a2ba-5fbb-485a-b576-824db81f58cf.png">
+
+ここで，左メニューでは「News」が選択されていて，右にその一覧が表示されます．また，右の「New News」をクリックすることで新規 News を作成できます．
+一覧の各Newsをクリックすることで編集画面に遷移します．コンテンツの削除も編集画面から行います．
+
+## 新規コンテンツ（News）の作成
+
+先に書いたように最初のページの右上にある「New News」をクリックしてください．
+
+
+
