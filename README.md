@@ -317,5 +317,9 @@ Github の master branch に push すると自動でスクリプトが走り，�
 
 先に書いたように最初のページの右上にある「New News」をクリックしてください．
 
+<img width="1330" alt="スクリーンショット 2022-03-03 18 05 16" src="https://user-images.githubusercontent.com/12372151/156532460-ed190354-edf1-4f20-b36d-6d56d3201f4d.png">
 
+左が編集画面，右がhtmlへ変換した画面になります．なお，右は参考程度として見てください．
+
+## コンテンツ（News）の編集
 
