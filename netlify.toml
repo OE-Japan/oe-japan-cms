@@ -1,7 +1,8 @@
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "yarn run netlify-build"
   functions = "lambda"
 [build.environment]
-  YARN_VERSION = "1.9.4"
+  NODE_VERSION = "14.19.2"
+  YARN_VERSION = "1.22.19"
   YARN_FLAGS = "--no-ignore-optional"
