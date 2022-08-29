@@ -22,7 +22,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [16.x]
 
     steps:
       - uses: actions/checkout@v2
@@ -30,11 +30,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npm audit fix
+      # - run: npm ci
+      # - run: npm audit fix
+      # - run: npm run build
       # yarn へ変更
-      # - run: yarn
-      - run: npm run build
+      - run: yarn
+      - run: yarn run build
 
       - name: Publish using netlify
         uses: netlify/actions/cli@master

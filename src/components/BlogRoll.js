@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-class BlogRoll extends React.Component {
+class BlogRollTemplate extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
@@ -15,33 +15,39 @@ class BlogRoll extends React.Component {
             <div className="is-parent column is-6" key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost == 'true'
-                    ? 'is-featured'
-                    : 'featured'
+                  post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
-                {/* {post.frontmatter.featuredimage ? ( */}
-                <div className="featured-thumbnail">
-                  <PreviewCompatibleImage
-                    imageInfo={{
-                      image: post.frontmatter.featuredimage,
-                      alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                    }}
-                  />
-                </div>
-                {/* ) : null} */}
-                <p className="post-meta">
-                  <Link
-                    className="title has-text-primary is-size-4"
-                    to={post.fields.slug}
-                  >
-                    {post.frontmatter.title}
-                  </Link>
-                  <span> &bull; </span>
-                  <span className="subtitle is-size-6 is-block">
-                    {post.frontmatter.date}
-                  </span>
-                </p>
+                <header>
+                  {post.frontmatter.featuredimage ? (
+                    <div className="featured-thumbnail">
+                      <PreviewCompatibleImage
+                        imageInfo={{
+                          image: post.frontmatter.featuredimage,
+                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          width:
+                            post.frontmatter.featuredimage.childImageSharp
+                              .gatsbyImageData.width,
+                          height:
+                            post.frontmatter.featuredimage.childImageSharp
+                              .gatsbyImageData.height,
+                        }}
+                      />
+                    </div>
+                  ) : null}
+                  <p className="post-meta">
+                    <Link
+                      className="title has-text-primary is-size-4"
+                      to={post.fields.slug}
+                    >
+                      {post.frontmatter.title}
+                    </Link>
+                    <span> &bull; </span>
+                    <span className="subtitle is-size-5 is-block">
+                      {post.frontmatter.date}
+                    </span>
+                  </p>
+                </header>
                 <p>
                   {post.excerpt}
                   <br />
@@ -66,11 +72,11 @@ BlogRoll.propTypes = {
   }),
 }
 
-export default function BlogRollQuery() {
+export default function BlogRoll() {
   return (
     <StaticQuery
       query={graphql`
-        query {
+        query BlogRollQuery {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
             filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
@@ -90,7 +96,7 @@ export default function BlogRollQuery() {
                   featuredimage {
                     childImageSharp {
                       gatsbyImageData(
-                        width: 240
+                        width: 120
                         quality: 100
                         layout: CONSTRAINED
                       )
@@ -102,7 +108,7 @@ export default function BlogRollQuery() {
           }
         }
       `}
-      render={(data, count) => <BlogRoll data={data} count={count} />}
+      render={(data, count) => <BlogRollTemplate data={data} count={count} />}
     />
   )
 }
