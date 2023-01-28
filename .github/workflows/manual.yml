@@ -54,7 +54,7 @@ jobs:
         uses: burnett01/rsync-deployments@5.2.1
         with:
           switches: -avzr --delete --omit-dir-times
-          # switches: -rlOtcv --delete --omit-dir-times
+          # switches: -rlOtcv --delete --exclude=".well-known/" --omit-dir-times　
           path: public/
           remote_path: ${{ secrets.REMOTE_PATH }}
           remote_host: ${{ secrets.REMOTE_HOST }}
