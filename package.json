@@ -1,7 +1,7 @@
 {
   "name": "oe-japan-cms",
   "description": "Open Education Japan (OE Japan)",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "author": "Takaya Yamazato",
   "dependencies": {
     "bulma": "^0.9.4",
