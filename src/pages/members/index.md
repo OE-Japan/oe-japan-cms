@@ -108,14 +108,6 @@ MEN AND WOMEN FOR OTHERS, WITH OTHERS
 
 世界最高の海外大学講義を日本語で無料で学ぼう！」Asuka Academy は日本最大のeラーニング提供会社ネットラーニンググループと内田洋行が支援するNPO法人です。MIT や Yale 大学、UCI などをはじめとした海外トップレベル大学のオープンエデュケーションコンテンツ、実際の講義や学習コンテンツなどを、日本語字幕つきで配信しています。無料会員登録だけで、どなたでもすべてのコンテンツを無料でご利用いただけます。日本人の学びのグローバル化、優秀な学生の海外への輩出、生涯学習の機会増進などを目指しています。学校現場や企業研修での教材としてもぜひご活用ください。翻訳へのボランティア参加も歓迎しております。多くの教育現場からアクティブ・ラーニングの一環として翻訳に参加されています。
 
-
----
-<!-- [![kwansei](/img/JOCW/emblem/Kwansei.jpg)](http://www.kwansei.ac.jp/index.html) -->
-[関西学院大学](http://www.kwansei.ac.jp/index.html)
-
-関西学院は、キリスト教主義に基づく教育をめざして1889（明治22）年、アメリカ・南メソジスト監督教会の宣教師W.R.ランバスによって神戸市灘区の原田の森に創立、1929（昭和4）年に西宮市の上ケ原に移転した。国の登録有形文化財に認定されたW.M.ヴォーリズの設計による時計台を中心にしたキャンパスは、日本屈指の美しさで知られる。  
-校章は新月。満月へ刻々と変化するように、ここで学ぶ者が日々進歩と成長の過程にあることを意味している。西宮上ケ原、西宮聖和、神戸三田、大阪梅田の各キャンパスに11学部11研究科と司法研究科、経営戦略研究科がある。スクールモットー“Mastery for Service”は「奉仕のための練達」と訳され、隣人・社会・世界に仕えるため、自らを鍛えるという意味がある。このモットーは卒業生の生きる指針となっている。
-
 ---
 <!-- [![CCJPロゴ](/img/JOCW/emblem/CCJP_red_logo.jpg)](http://creativecommons.jp/) -->
 [クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/)
@@ -142,11 +134,17 @@ NPO法人CCC-TIESは、eラーニングの手法と技術を活用して教育�
 事業は"「ユビキタス・プレイス®」を創造するインテグレーターになる"というコーポレートビジョンのもと、お客様満足を追求し、お客様とともに成長し続 けられるような革新的な商品やサービスの提供を、徹底的なコンプライアンス経営を基調に進めてまいります。
 
 ---
-<!-- [![SCSK](data:image/png;base64,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)](https://www.scsk.jp/) -->
+<!-- [![SCSK](https://www.scsk.jp/) -->
 [SCSK株式会社](https://www.scsk.jp/)
 
 SCSKは2019年度に創立50周年を迎えます。  
 半世紀におよぶ長年の経験と多くの知見をもとに、ITサービスのプロフェッショナル集団として、お客様の視点に立ち、最適な解決策を実現し、戦略的ITパートナーとして企業価値向上や社会課題の解決に貢献していきます。
+
+---
+<!-- [!netlearning](https://www.netlearning.co.jp/) -->
+[株式会社ネットラーニング](https://www.netlearning.co.jp/)
+
+株式会社ネットラーニングは、オンライン教育やe-ラーニングサービスを提供する企業です。同社は、ビジネスパーソン向けのITスキルアップや資格取得を支援するコース、企業向けの研修・教育サービス、医療従事者向けの継続的な教育プログラムなど、多岐にわたるプログラムを提供しています。同社は、顧客のニーズに合わせてカスタマイズされたコースを提供することができるため、大手企業や公的機関からの受託案件も多数手がけています。また、ネットワーク講師や専門家による豊富な知識と経験を持つ教育プロフェッショナルが在籍しており、高品質の教育サービスを提供しています。
 
 ---
 <!-- [![logo](/img/JOCW/emblem/CMScomlogo.jpg)](http://www.cmscom.jp/) -->
@@ -162,5 +160,11 @@ CMSコミュニケーションズは、オープンソースCMSであるPloneに
 株式会社デジタル・ナレッジの事業コンセプトは、インターネットを通じて情報・知識の流通をより効率的かつ効果的にすることであり、より良い知識社会の実現に貢献することです。
 
 株式会社デジタル・ナレッジはインターネット上で“わかりやすく”かつ、“作りやすい”知識コンテンツの流通サービスを社会に提供することを目標としています。
+
+---
+<!-- [![dn]](https://www.jotea.org/) -->
+[一般社団法人日本オンライン教育産業協会](https://www.jotea.org/)
+
+一般社団法人日本オンライン教育産業協会は、日本におけるオンライン教育の普及や発展を支援するために設立された団体です。略称は「JOTEA」です。同協会は、オンライン教育に関する情報提供や調査研究、教育事業者や学校などの会員企業の支援を行っています。また、オンライン教育に関する法制度の整備や、教育の質の確保に関するガイドラインの策定など、業界の発展に向けた取り組みを進めています。JOLIAには、オンライン教育事業者や学校、研究機関、IT企業、出版社などが会員として参加しており、幅広い業界のプレイヤーが協力してオンライン教育の発展を促進しています。
 
 ---
