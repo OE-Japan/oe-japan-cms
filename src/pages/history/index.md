@@ -7,7 +7,7 @@ date: 2018-12-17T15:04:10.000Z
 featuredpost: false
 description: オープンエデュケーション・ジャパン（略称　OE ジャパン）は日本オープンコースウェアコンソーシアム（JOCW）を発展的に解消し、発足した団体です。
 tags:
-  - Opuen Education Japan
+  - Open Education Japan
   - JOCW
 ---
 
