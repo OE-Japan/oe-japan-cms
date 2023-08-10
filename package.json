@@ -29,7 +29,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "sass": "^1.64.1",
+    "sass": "^1.65.1",
     "sass-loader": "^13.3.2",
     "uuid": "^9.0.0"
   },
@@ -47,8 +47,8 @@
     "package update": "ncu -u && rm -rf node_modules yarn.lock && yarn install && yarn build"
   },
   "devDependencies": {
-    "npm-check-updates": "^16.10.17",
-    "prettier": "^3.0.0",
+    "npm-check-updates": "^16.10.18",
+    "prettier": "^3.0.1",
     "webpack": "^5.88.2"
   },
   "resolutions": {
