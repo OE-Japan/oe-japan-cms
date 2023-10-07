@@ -5,11 +5,11 @@
   "author": "Takaya Yamazato",
   "dependencies": {
     "bulma": "^0.9.4",
-    "gatsby": "^5.12.4",
+    "gatsby": "^5.12.5",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^3.12.0",
     "gatsby-plugin-google-analytics": "^5.12.0",
-    "gatsby-plugin-netlify": "^5.1.0",
+    "gatsby-plugin-netlify": "^5.1.1",
     "gatsby-plugin-netlify-cms": "^7.12.0",
     "gatsby-plugin-purgecss": "^6.2.1",
     "gatsby-plugin-react-helmet": "^6.12.0",
@@ -29,7 +29,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "sass": "^1.66.1",
+    "sass": "^1.69.0",
     "sass-loader": "^13.3.2",
     "uuid": "^9.0.1"
   },
@@ -47,7 +47,7 @@
     "package update": "ncu -u && rm -rf node_modules yarn.lock && yarn install && yarn run build"
   },
   "devDependencies": {
-    "npm-check-updates": "^16.14.0",
+    "npm-check-updates": "^16.14.5",
     "prettier": "^3.0.3",
     "webpack": "^5.88.2"
   },
