@@ -5,22 +5,22 @@
   "author": "Takaya Yamazato",
   "dependencies": {
     "bulma": "^0.9.4",
-    "gatsby": "^5.12.6",
+    "gatsby": "^5.13.3",
     "gatsby-image": "^3.11.0",
-    "gatsby-plugin-image": "^3.12.1",
-    "gatsby-plugin-google-analytics": "^5.12.0",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-google-analytics": "^5.13.1",
     "gatsby-plugin-netlify": "^5.1.1",
     "gatsby-plugin-netlify-cms": "^7.12.0",
     "gatsby-plugin-purgecss": "^6.2.1",
-    "gatsby-plugin-react-helmet": "^6.12.0",
-    "gatsby-plugin-sass": "^6.12.1",
-    "gatsby-plugin-sharp": "^5.12.1",
-    "gatsby-remark-copy-linked-files": "^6.12.0",
-    "gatsby-remark-images": "^7.12.1",
+    "gatsby-plugin-react-helmet": "^6.13.1",
+    "gatsby-plugin-sass": "^6.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-remark-copy-linked-files": "^6.13.1",
+    "gatsby-remark-images": "^7.13.1",
     "gatsby-remark-relative-images": "^2.0.5",
-    "gatsby-source-filesystem": "^5.12.0",
-    "gatsby-transformer-remark": "^6.12.1",
-    "gatsby-transformer-sharp": "^5.12.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-remark": "^6.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
     "lodash": "^4.17.21",
     "lodash-webpack-plugin": "^0.11.6",
     "netlify-cms-app": "^2.15.72",
@@ -29,8 +29,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "sass": "^1.69.3",
-    "sass-loader": "^13.3.2",
+    "sass": "^1.71.1",
+    "sass-loader": "^14.1.1",
     "uuid": "^9.0.1"
   },
   "keywords": [
@@ -47,9 +47,9 @@
     "package update": "ncu -u && rm -rf node_modules yarn.lock && yarn install && yarn run build"
   },
   "devDependencies": {
-    "npm-check-updates": "^16.14.6",
-    "prettier": "^3.0.3",
-    "webpack": "^5.89.0"
+    "npm-check-updates": "^16.14.15",
+    "prettier": "^3.2.5",
+    "webpack": "^5.90.3"
   },
   "resolutions": {
     "graphql": "^15.4.0",
