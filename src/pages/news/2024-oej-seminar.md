@@ -3,12 +3,13 @@ templateKey: blog-post
 title: Open Education Japan セミナー「OER横断検索サービスとオンライン授業交流会」
 date: 2024-3-19T10:30:10.000Z
 featuredpost: true
-featuredimage: /img/blog/2024-OEJ-Seminar.png
+featuredimage: /img/blog/2024-OEJ-seminar.png
 description: Open Education Japanでは，2024年3月19日（火）にセミナー「OER横断検索サービスの開始とオンライン授業交流会」を開催いたします。
 tags:
   - セミナー
   - OER横断検索サービスとオンライン授業交流会
 ---
+![2024-OEJ-seminar](/img/blog/2024-OEJ-seminar.png)
 
 Open Education Japan(OEJ)では，2024 年 3 月 19 日（火）にセミナー「OER横断検索サービスとオンライン授業交流会」を開催いたします。
 
