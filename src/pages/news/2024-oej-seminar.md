@@ -1,20 +1,20 @@
 ---
 templateKey: blog-post
-title: Open Education Japan セミナー「OER横断検索サービスの開始とオンライン授業交流会」
-date: 2023-3-15T10:30:10.000Z
+title: Open Education Japan セミナー「OER横断検索サービスとオンライン授業交流会」
+date: 2024-3-19T10:30:10.000Z
 featuredpost: true
-featuredimage: /img/blog/2023-OEJ-Seminar.png
-description: Open Education Japanでは，2023年3月28日（火）にセミナー「OERの制作と横断検索」を開催いたします。
+featuredimage: /img/blog/2024-OEJ-Seminar.png
+description: Open Education Japanでは，2024年3月19日（火）にセミナー「OER横断検索サービスの開始とオンライン授業交流会」を開催いたします。
 tags:
   - セミナー
-  - OERの制作と横断検索
+  - OER横断検索サービスとオンライン授業交流会
 ---
 
 [![フライヤー](/img/blog/2023-OEJ-Seminar.png)](2023-03-28-OEJ-Seminar-Flyer.pdf)
 
 [フライヤーは上のイメージをクリック](2023-03-28-OEJ-Seminar-Flyer.pdf)
 
-Open Education Japan(OEJ)では，2023 年 3 月 28 日（火）にセミナー「[OER の制作と横断検索](2023-03-28-OEJ-Seminar-Flyer.pdf)」を開催いたします。
+Open Education Japan(OEJ)では，2024 年 3 月 19 日（火）にセミナー「OER横断検索サービスとオンライン授業交流会」を開催いたします。
 
 本セミナーでは、オープンエデュケーション・ジャパン加盟校が取り組む映像教材の制作プロセスの事例紹介に加えて，OEJ が推進している各大学の OCW を横断検索システムの開発についてご紹介いたします。
 
