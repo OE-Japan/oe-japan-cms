@@ -1,5 +1,5 @@
 @charset "utf-8"
-@import "~bulma/sass/utilities/initial-variables.sass"
+// @import "~bulma/sass/utilities/initial-variables.sass"
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -14,6 +14,7 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #333436
+$white-ter: #f5f5f5
 
 // .navbar .navbar-menu
 //   box-shadow:none !important
@@ -87,7 +88,7 @@ $black: #333436
   padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
-  background-color: transparent
+  background-color: #014f62
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -134,14 +135,14 @@ $menu-label-color: $white-ter
 
 
 // responsiveness
-+tablet-only
-  .blog-list-item .featured-thumbnail
-    flex-basis: 50%
+// +tablet-only
+//   .blog-list-item .featured-thumbnail
+//     flex-basis: 50%
 
-+mobile
-  .blog-list-item header
-    display: block
-  .blog-list-item .featured-thumbnail
-    text-align: center
-    max-width: 70%
-    margin: 0 0 1em
+// +mobile
+//   .blog-list-item header
+//     display: block
+//   .blog-list-item .featured-thumbnail
+//     text-align: center
+//     max-width: 70%
+//     margin: 0 0 1em

@@ -10,7 +10,7 @@ import github from '../img/github-icon.svg'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
+      <footer className="footer has-text-white-ter">
         <div className="content has-text-centered">
           <img
             src={logo}
@@ -18,11 +18,11 @@ const Footer = class extends React.Component {
             style={{ width: '14em', height: '10em' }}
           />
         </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
+        <div className="content has-text-centered has-text-white-ter">
+          <div className="container has-text-white-ter">
             <div className="columns">
               <div className="column is-4">
-                <section className="menu">
+                <section>
                   <ul className="menu-list">
                     <li>
                       <Link to="/" className="navbar-item">
@@ -106,6 +106,7 @@ const Footer = class extends React.Component {
             </div>
           </div>
         </div>
+        <br />
       </footer>
     )
   }
