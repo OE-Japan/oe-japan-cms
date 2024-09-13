@@ -306,7 +306,7 @@ Github の master branch に push すると自動でスクリプトが走り，�
 
 # Netlify CMS でのデータの追加・修正・削除
 
-Netlify CMSがうまく動作しませんので，この機能を削除しました．
+*Netlify CMSがうまく動作しませんので，この機能を削除しました．*
 
 ~~データの追加・修正・削除は [Netlify CMS](https://oe-japan.netlify.app/admin/) でもできます。~~
 
