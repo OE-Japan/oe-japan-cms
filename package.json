@@ -44,8 +44,8 @@
     "build": "gatsby clean && gatsby build",
     "develop": "npm run clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "yarn package update": "ncu -u && rm -rf node_modules yarn.lock && yarn install && yarn run build",
-    "npm package update": "ncu -u && rm -rf node_modules yarn.lock && npm install && npm run build"
+    "yarn package update": "ncu -u && rm -rf node_modules yarn.lock package.lock && yarn install && yarn run build",
+    "npm package update": "ncu -u && rm -rf node_modules yarn.lock package.lock && npm install && npm run build"
   },
   "devDependencies": {
     "npm-check-updates": "^17.1.1",
