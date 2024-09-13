@@ -15,8 +15,8 @@
     "gatsby-plugin-react-helmet": "^6.13.1",
     "gatsby-plugin-sass": "^6.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
-    "gatsby-remark-copy-linked-files": "^6.13.1",
-    "gatsby-remark-images": "^7.13.1",
+    "gatsby-remark-copy-linked-files": "^6.13.2",
+    "gatsby-remark-images": "^7.13.2",
     "gatsby-remark-relative-images": "^2.0.5",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-remark": "^6.13.1",
@@ -29,8 +29,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "sass": "^1.77.8",
-    "sass-loader": "^16.0.0",
+    "sass": "^1.78.0",
+    "sass-loader": "^16.0.1",
     "uuid": "^10.0.0"
   },
   "keywords": [
@@ -44,12 +44,13 @@
     "build": "gatsby clean && gatsby build",
     "develop": "npm run clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "package update": "ncu -u && rm -rf node_modules yarn.lock && yarn install && yarn run build"
+    "yarn package update": "ncu -u && rm -rf node_modules yarn.lock && yarn install && yarn run build",
+    "npm package update": "ncu -u && rm -rf node_modules yarn.lock && npm install && npm run build"
   },
   "devDependencies": {
-    "npm-check-updates": "^17.0.3",
+    "npm-check-updates": "^17.1.1",
     "prettier": "^3.3.3",
-    "webpack": "^5.93.0"
+    "webpack": "^5.94.0"
   },
   "resolutions": {
     "graphql": "^15.4.0",
