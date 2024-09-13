@@ -310,7 +310,7 @@ Netlify CMSがうまく動作しませんので，この機能を削除しまし
 
 ~~データの追加・修正・削除は [Netlify CMS](https://oe-japan.netlify.app/admin/) でもできます。~~
 
-~~[Netlify CMS](https://oe-japan.netlify.app/admin/) にアクセスすると次のようになります．||
+~~[Netlify CMS](https://oe-japan.netlify.app/admin/) にアクセスすると次のようになります．~~
 
 <img width="1445" alt="スクリーンショット 2022-03-03 17 50 04" src="https://user-images.githubusercontent.com/12372151/156530714-5140a2ba-5fbb-485a-b576-824db81f58cf.png">
 
