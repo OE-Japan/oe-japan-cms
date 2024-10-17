@@ -26,8 +26,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "sass": "^1.78.0",
-    "sass-loader": "^16.0.1",
+    "sass": "^1.80.1",
+    "sass-loader": "^16.0.2",
     "uuid": "^10.0.0"
   },
   "keywords": [
@@ -45,9 +45,9 @@
     "npm package update": "ncu -u && rm -rf node_modules yarn.lock package.lock && npm install && npm run build"
   },
   "devDependencies": {
-    "npm-check-updates": "^17.1.1",
+    "npm-check-updates": "^17.1.4",
     "prettier": "^3.3.3",
-    "webpack": "^5.94.0"
+    "webpack": "^5.95.0"
   },
   "resolutions": {
     "graphql": "^15.4.0",
