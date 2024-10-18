@@ -1,7 +1,7 @@
 {
   "name": "oe-japan-cms",
   "description": "Open Education Japan (OE Japan)",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Takaya Yamazato",
   "dependencies": {
     "bulma": "^1.0.2",
@@ -26,7 +26,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "sass": "^1.80.1",
+    "sass": "^1.80.2",
     "sass-loader": "^16.0.2",
     "uuid": "^10.0.0"
   },
@@ -45,13 +45,9 @@
     "npm package update": "ncu -u && rm -rf node_modules yarn.lock package.lock && npm install && npm run build"
   },
   "devDependencies": {
-    "npm-check-updates": "^17.1.4",
-    "prettier": "^3.3.3",
-    "webpack": "^5.95.0"
+    "prettier": "^3.3.3"
   },
-  "resolutions": {
-    "graphql": "^15.4.0",
-    "graphql-compose": "^7.25.0",
-    "webpack": "^5.24.2"
+  "engines": {
+    "node": ">= 20.18.01"
   }
 }
