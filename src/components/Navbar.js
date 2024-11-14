@@ -49,18 +49,20 @@ const Navbar = class extends React.Component {
               />
             </Link>
             {/* Hamburger menu */}
-            <div
+            {/* <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               role="menuitem"
               tabIndex={0}
               onKeyPress={() => this.toggleHamburger()}
               onClick={() => this.toggleHamburger()}
-            >
+            > */}
+            <button className={`navbar-burger burger ${this.state.navBarActiveClass}`} aria-label="Nav button" data-target="navMenu" onClick={() => this.toggleHamburger()} tabIndex={0}>
+
               <span />
               <span />
               <span />
-            </div>
+            </button>
           </div>
           <div
             id="navMenu"

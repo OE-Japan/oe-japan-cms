@@ -1,5 +1,5 @@
 ---
-templateKey: search-page
+templateKey: about-page
 path: /search
 title: OER検索サービス
 ---
