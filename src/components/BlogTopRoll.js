@@ -87,6 +87,7 @@ export default function BlogTopRoll() {
                   title
                   templateKey
                   date(formatString: "MMMM DD, YYYY")
+                  description
                   featuredpost
                   featuredimage {
                     childImageSharp {
