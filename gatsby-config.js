@@ -8,6 +8,12 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://oejapan.org/`,
+      },
+    },
     `gatsby-plugin-sitemap`,
     'gatsby-plugin-image',
     {
