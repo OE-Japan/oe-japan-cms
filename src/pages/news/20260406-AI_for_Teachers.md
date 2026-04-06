@@ -4,13 +4,13 @@ title: 教師のためのAI入門（AI for Teachers）
 date: 2026-4-6T14:13:10.000Z
 featuredpost: false
 featuredimage: /img/oe-japan-logo-a.png
-description: 教師のためのAI入門（AI for Teachers）
+description: 名古屋大学教養教育院ハイブリッドラーニングセンターの教員有志が教師のためのAI入門（AI for Teachers）の翻訳を行いました。
 tags:
   - 教師のためのAI入門
   - AI for Teachers
   - 名古屋大学
 ---
-教育現場でAIの活用が急速に進む中、教師がAIを理解し、適切に向き合うための基礎的な学習資源として活用いただくことを目的として、名古屋大学教養教育院ハイブリッドラーニングセンターの教員有志が AI for Teachers: an Open Textbook  （教師のためのAI入門）の翻訳を行いました。
+本書籍は教育現場でAIの活用が急速に進む中、教師がAIを理解し、適切に向き合うための基礎的な学習資源として活用いただくことを目的としています。
 
 最新版の PDF および EPUB は以下のサポートページからダウンロードできます。
 
