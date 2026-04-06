@@ -108,4 +108,6 @@ tags:
 
 訳： JOCW幹事会（2015年）
 
-[原文：2012 Paris OER Declaration](https://en.unesco.org/oer/paris-declaration)
+[原文：2012 Paris OER Declaration](https://unesdoc.unesco.org/ark:/48223/pf0000246687.locale=en)
+
+[Wikipedia：UNESCO 2012 Paris OER Declaration](https://en.wikipedia.org/wiki/UNESCO_2012_Paris_OER_Declaration)
