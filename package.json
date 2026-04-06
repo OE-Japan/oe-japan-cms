@@ -1,35 +1,34 @@
 {
   "name": "oe-japan-cms",
   "description": "Open Education Japan (OE Japan)",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "Takaya Yamazato",
   "dependencies": {
     "bulma": "^1.0.4",
     "gatsby": "^5.16.1",
     "gatsby-image": "^3.11.0",
-    "gatsby-plugin-canonical-urls": "^5.15.0",
-    "gatsby-plugin-google-analytics": "^5.15.0",
-    "gatsby-plugin-image": "^3.15.0",
+    "gatsby-plugin-canonical-urls": "^5.16.0",
+    "gatsby-plugin-google-analytics": "^5.16.0",
+    "gatsby-plugin-image": "^3.16.0",
     "gatsby-plugin-purgecss": "^6.2.1",
-    "gatsby-plugin-react-helmet": "^6.15.0",
-    "gatsby-plugin-sass": "^6.15.0",
-    "gatsby-plugin-sharp": "^5.15.0",
-    "gatsby-plugin-sitemap": "^6.15.0",
-    "gatsby-remark-copy-linked-files": "^6.15.0",
-    "gatsby-remark-images": "^7.15.0",
+    "gatsby-plugin-react-helmet": "^6.16.0",
+    "gatsby-plugin-sass": "^6.16.0",
+    "gatsby-plugin-sharp": "^5.16.0",
+    "gatsby-plugin-sitemap": "^6.16.0",
+    "gatsby-remark-copy-linked-files": "^6.16.0",
+    "gatsby-remark-images": "^7.16.0",
     "gatsby-remark-relative-images": "^2.0.5",
-    "gatsby-source-filesystem": "^5.15.0",
-    "gatsby-transformer-remark": "^6.15.0",
-    "gatsby-transformer-sharp": "^5.15.0",
-    "lodash": "^4.17.21",
+    "gatsby-source-filesystem": "^5.16.0",
+    "gatsby-transformer-remark": "^6.16.0",
+    "gatsby-transformer-sharp": "^5.16.0",
+    "lodash": "^4.18.1",
     "lodash-webpack-plugin": "^0.11.6",
-    "node-sass": "^9.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "sass": "^1.94.0",
-    "sass-loader": "^16.0.6",
+    "sass": "^1.99.0",
+    "sass-loader": "^16.0.7",
     "uuid": "^13.0.0"
   },
   "keywords": [
@@ -47,7 +46,7 @@
     "npm package update": "ncu -u && rm -rf node_modules yarn.lock package.lock && npm install && npm run build"
   },
   "devDependencies": {
-    "prettier": "^3.6.2"
+    "prettier": "^3.8.1"
   },
   "engines": {
     "node": ">= 20.18.0"
