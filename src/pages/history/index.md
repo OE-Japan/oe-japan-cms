@@ -3,7 +3,7 @@ templateKey: "history-page"
 path: /history
 title: OE Japan History
 heading: History
-date: 2018-12-17T15:04:10.000Z
+date: 2026-6-12T13:04:10.000Z
 featuredpost: false
 description: オープンエデュケーション・ジャパン（略称　OE ジャパン）は日本オープンコースウェアコンソーシアム（JOCW）を発展的に解消し、発足した団体です。
 tags:
@@ -11,7 +11,110 @@ tags:
   - JOCW
 ---
 
-## オープンエデュケーション・ジャパン設立の経緯
+# Open Education Japan (OE Japan) History
+
+**We foster open education and open educational resources.**
+
+オープンエデュケーション・ジャパン（略称 OEジャパン）は、日本におけるオープンエデュケーションの推進およびオープン教育リソース（Open Educational Resource: OER）の普及・促進に寄与することを目指している団体です。大学や企業等で構成される会員団体の間でオープンエデュケーションに関する情報共有を図るほか、国際的なオープンエデュケーション普及団体であるOpen Education Globalとも連携しつつ、世界的なオープンエデュケーションの活動に参画し、国内に向けた情報提供を行っています。
+
+当団体は、2005年に発足したJapan OpenCourseWare Consortium（JOCW）を前身としており、Open Education Globalの加盟団体です。大規模オープンオンラインコース（MOOCs）の登場など、世界的なオープンエデュケーションの潮流と発展に合わせて組織の目的を拡大し、名称を現在のものへと刷新いたしました。
+
+本ページでは、2005年のJOCW発足から現在のOEジャパンに至るまでの歩みを、「沿革（History）」として年表形式でまとめています。また、年表の後には「JOCW 設立の経緯」「JOCW 設立後の経過」「オープンエデュケーション・ジャパン設立の経緯」について、当時の背景を交えたより詳細な記録を掲載しています。日本のオープンエデュケーションの歴史を辿る資料としてご活用ください。
+
+---
+
+## 沿革 (History)
+
+### 2026年
+* **7月3日**：2026年度第1回幹事会・総会をオンラインで開催。
+* **4月**：MITによるOCW公開開始から25周年を迎え、記念式典が開催される。
+  - [From Bold Idea to Global Legacy: 25 Years of MIT OpenCourseWare | Open Learning](https://openlearning.mit.edu/)
+* **4月6日**：Open Education Global (OEG) 2026 Conferenceに向けた発表プロポーザル「The 20-Year Journey of Open Education in Japan: Moving from Institutional Initiatives Toward a Nation-wide Collaborative Ecosystem」を作成・提出。日本のOCW開始から20年間の歩みを振り返り、ボトムアップのコミュニティ主導によるOEJのガバナンスや、OER横断検索システムの構築など、機関単位の取り組みから全国的な協働エコシステムへと移行しつつある現状をまとめた内容。
+  - [OEGlobal 2026 Conference](https://conference.oeglobal.org/2026/)
+* **3月26日**：OEJ 2025年度セミナーおよび交流会を開催。
+  * **【セミナー】** 北海道大学より、Adobeとの共同研究で設置・活用しているラーニングコモンズ「Digital Creative Grids」の取組と、ウェブサイト「Digital Creative Learning Commons」におけるオープン教材開発の事例を紹介。
+  - [Digital Literacy Learning Commons - Grids](https://sites.google.com/huoec.jp/dclc/grids?pli=1)
+  * **【交流会】** 各大学からの近況について報告と交流を実施。
+* **3月12日**：【関連イベント】東京大学にて「UTokyo OCW」「東大TV」の20周年記念シンポジウムが開催。
+  - [東京大学OCW/東大TV 20周年記念シンポジウム](https://ocw.u-tokyo.ac.jp/oe2026/)
+  * **第2部 セッション1：OCWの潮流とこれからのオープンエデュケーション**
+    * 宮川 繁氏（マサチューセッツ工科大学名誉教授）「OCW: 大学教育コンテンツのオープンアクセス」
+    * 吉見 俊哉氏（東京大学名誉教授）「大学は二度目の死を迎えているのか？-改めて考える大学教育の意義-」
+  * **第2部 セッション2：新しい時代の学びの実践例**
+    * 若山 正人氏（ZEN大学 学長）「ZEN大学における取組 – 大規模完全オンライン大学での学び」
+    * 木村 見悟氏（KDDI株式会社）「新規事業としてのLIBERARY（リベラリー）の取り組みについて～リベラルアーツによる人財育成への想いと実践～」
+    * 澁川 幸加氏（中央大学特任助教）「通信制からみる学びのゲームチェンジャー」
+* **3月3日〜7日**：Open Education Week が開催。
+  - [Open Education Week](https://oeweek.oeglobal.org)
+
+### 2025年
+* **10月16日**：東京科学大学（旧：東京工業大学）のOCW運用が、サーバーOSのサポート終了やハードウェア老朽化によるセキュリティリスクなどを理由に当面休止となることが報告される。
+* **8月**：ユネスコで開催されたDigital Learning Weekに合わせ、OEG Board meeting等でOEJの活動（OER横断検索サービスやAsuka Academyなど）が紹介される。
+  - [Digital Learning Week](https://www.unesco.org/en/weeks/digital-learning)
+  - [Asuka Academy](https://www.asuka-academy.com/)
+* **6月30日**：2025年度第1回幹事会・総会をオンラインで開催。
+* **3月31日**：OE Japan交流会「OERの制作と生成AI」をオンラインで開催。
+  * **【講師】** 藤岡千也氏（北海道大学 オープンエデュケーションセンター）
+  * **【概要】** 生成AIツールを用いると、コンテンツを効率的に制作できることを示唆する事例を紹介。
+
+### 2024年
+* **11月20日**：国立情報学研究所（NII）の支援により、OEJ加盟校の公開するOERを対象とした「オープン教育資源（OER）横断検索サービス（search.oejapan.org）」の運用が開始される。
+  - [オープン教育資源（OER）横断検索サービス](https://search.oejapan.org/)
+* **8月7日**：2024年度第1回幹事会および総会を開催。
+* **3月19日**：OEJセミナー「OER横断検索サービスとオンライン授業交流会」をオンラインで開催[13]。
+  * **【プログラム】**
+    * 「OER横断検索サービスの開始について」重田勝介氏（Open Education Japan 代表幹事）
+    * 「オンライン授業交流会」小林和也氏・田中宏明氏（北海道大学）。パターン・ランゲージとビンゴゲームを利用し、楽しくオンライン授業実践についての意見交換を促進するゲームを実施。
+
+### 2023年
+* **6月27日**：2023年度第1回総会・幹事会をオンラインで開催。
+* **3月28日**：OEJセミナー「OERの制作と横断検索」および交流会を開催。
+  - [Open Education Japanセミナー「OERの制作と横断検索」](https://oejapan.org/news/2023-03-28-OEJ-Seminar/)
+  * **【プログラム】**
+    * 「北海道大学における映像教材の制作プロセスと効率化」藤岡千也氏（北海道大学）
+    * 「OER横断検索リポジトリ構築の概要」長岡千香子氏（国立情報学研究所）
+    * 「スクレイピングによるOCWコンテンツ情報の収集」武田俊之氏（関西学院大学）
+
+### 2022年
+* **11月**：名古屋市立大学より、OE Japanへの加入等に関する問い合わせがあり、情報の共有が行われる。
+* **8月**：京都大学高等教育研究開発推進センターの廃止および「京都大学OCW」の閉鎖方針を受け、OEJ幹事会にて日本におけるオープン教育への影響や意見書の作成について議論が行われる。
+  [京都大学高等教育研究開発推進センターの廃止について](http://www.highedu.kyoto-u.ac.jp/news/news-1663/)
+* **7月25日**：2021年度および2022年度の総会をオンラインで開催。
+
+### 2014年〜2018年（JOCWからOEJへの転換と発展）
+* **2018年9月10日**：2018年度JOCW国際ワークショップを企画。米国College of the Canyonsの学部長であり、Open Education Consortium前プレジデントのJames Glapa-Grossklag氏を招き、「米国におけるオープンエデュケーションおよびOpen Textbookの普及について」をテーマに開催を予定していたが、北海道胆振東部地震の影響によりやむなく中止の判断となる。
+  - [James Glapa-Grossklag氏 プロフィール](https://www.linkedin.com/in/james-glapa-grossklag/)
+* **2016年3月10日**：Open Education Week関連イベントとして、「クリエイティブ・コモンズライセンス勉強会」を大阪大学東京オフィスにて開催。
+  * **【講師】** 水野祐弁護士（クリエイティブ・コモンズ・ジャパン）
+  * **【内容】** OCW、OERに欠かせないCCライセンスの概要から実際の運用上の注意点、ライセンス策定に関する知見を共有。
+* **2015年12月5日**：JOCW10周年記念シンポジウム「オープンエデュケーションが拓く教育改革 ー世界の最先端事例から学ぶー」を大阪大学にて開催。
+  - [オープンエデュケーションが拓く教育改革 ー世界の最先端事例から学ぶー](http://www.tlsc.osaka-u.ac.jp/events/sympo2015)
+  * **【事例講演】** 
+    * Larry COOPERMAN氏 (OEC Board 前プレジデント)「OER movement in North and South America —北米における事例紹介—」
+    * Sophie TOUZÉ氏 (OEC Board バイスプレジデント)「Open Education in France and EU ーフランス及びEUにおける事例紹介—」
+    * 福原美三氏（明治大学）「Asuka AcademyでのOER活用について ー世界の優良講座を日本語で学ぶー」
+    * 重田勝介氏（北海道大学）「日本におけるOpen Education の現状」
+* **2015年5月27日**：2015年度JOCW総会および特別講演会「オープンコースウェアからオープンエデュケーションへ－教育のグローバリゼーションに資する」を東京大学と共催で開催。
+  - [特別講演会「オープンコースウェアからオープンエデュケーションへ」のお知らせ](https://oejapan.org/news/Special-Lecture-From-OpenCourseWare-to-Open-Education/)
+    - [東大TV](https://ch.u-tokyo.ac.jp/series/?id=U7Mg8QIS3cG4)
+    - [UTokyo Channel](https://ch.u-tokyo.ac.jp/series/?id=U7Mg8QIS3cG4)
+  * **【基調講演】**
+    * 吉見俊哉氏（東京大学）「東京大学のオープン・エデュケーション－OCWとMOOCの経験を通じて」
+    * 白井克彦氏（放送大学学園理事長）「Open Education, 放送大学とJMOOC」
+* **2014年1月8日**：2014年度JOCW総会を開催。今後のJOCWの事業方針（OERの推進への拡大など）や体制について議論が行われる[23, 24]。
+
+### 2005年〜2013年（JOCWの設立とOCW運動の推進）
+* **2013年9月24日**：JOCW交流会およびJOCW横断検索講習会を開催。放送大学・山田恒夫先生によるハンズオンワークショップが行われ、今後のメタデータ入力について議論される。
+* **2013年2月24日〜25日**：国際セミナー「MOOCｓと電子図書館の今後を考える」等を放送大学、九州大学などと共同で開催（JOCW後援）。MOOCsが既存の高等教育に与えるインパクトやインフラについて意見交換が行われる[26]。
+* **2012年11月22日**：2012 JOCW交流会 シンポジウム＜オープンな教育資源活用について＞を京都大学にて開催[27, 28]。
+  * 美濃導彦氏（京都大学）、竹村治雄氏（大阪大学）による基調講演のほか、土佐尚子氏、田地野彰氏、河原達也氏、黒橋貞夫氏、梶田将司氏などによる「京大オープンコースウェアに関わる教育資源ネットワーク」の発表を実施。
+* **2012年6月4日**：2012年度JOCW総会を開催。MIT 宮川繁教授のACE Award (Award for OpenCourseWare Excellence) 受賞を記念した講演「OCW、これまでそして今後」および祝賀会を実施。
+* **2005年5月**：国内の6大学（東京大学、京都大学、大阪大学、東京工業大学、名古屋大学、慶應義塾大学）が連携し、Japan OpenCourseWare Consortium (JOCW) を発足。記者会見および共同プレスリリースを実施。
+  - [MITにならえ 国内6大学が講義をネット公開（ITmedia NEWS - 2005年5月13日記事）](https://www.itmedia.co.jp/news/articles/0505/13/news080.html)
+
+----
+
+# オープンエデュケーション・ジャパン設立の経緯
 
 日本オープンコースウェアコンソーシアム（JOCW）は、2005 年に発足した本コンソーシアムの前身である「日本オープンコースウェア連絡会」発足以来、日本国内におけるオープンコースウェアの普及、さらには OER やオープンエデュケーション活動全般の普及に取り組んでまいりました。加えて、国際的なオープンエデュケーション普及団体である　 Open Education Global (旧 Open Education Consortium)に加盟し、世界的なオープンエデュケーションの活動に参画しつつ、国内に向けた情報提供を行ってまいりました。
 
