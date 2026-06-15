@@ -48,6 +48,7 @@ tags:
   - [Open Education Week](https://oeweek.oeglobal.org)
 
 ### 2025年
+* **10月** OEG Connectにて開催された国際オンラインライブセッション「[OEGlobal Tour 2025](https://connect.oeglobal.org/t/live-session-details-for-day-1/8053)」のDay 1（中東・アジア・オセアニア地域セクション）に、重田代表幹事（OEJ Chair）、山里幹事（OEG理事）、竹村先生（大阪大学）がパネリストとして登壇。地域におけるオープンエデュケーションの意義や日本での取り組みについて議論を交わし、国際連携を深めました。
 * **10月16日**：東京科学大学（旧：東京工業大学）のOCW運用が、サーバーOSのサポート終了やハードウェア老朽化によるセキュリティリスクなどを理由に当面休止となることが報告される。
 * **8月**：ユネスコで開催されたDigital Learning Weekに合わせ、OEG Board meeting等でOEJの活動（OER横断検索サービスやAsuka Academyなど）が紹介される。
   - [Digital Learning Week](https://www.unesco.org/en/weeks/digital-learning)
