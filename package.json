@@ -46,7 +46,7 @@
     "npm package update": "ncu -u && rm -rf node_modules yarn.lock package.lock && npm install && npm run build"
   },
   "devDependencies": {
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.4"
   },
   "engines": {
     "node": ">= 20.18.0"
