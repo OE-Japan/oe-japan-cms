@@ -48,8 +48,8 @@ tags:
   - [Open Education Week](https://oeweek.oeglobal.org)
 
 ### 2025年
-* **12月** 名古屋大学のオープンコースウェア「[名大の授業](https://ocw.nagoya-u.jp/milestones/)」が20周年を迎え、学生主導による「お薦め・関連講義表示機能」の実装などプラットフォームを拡張。これまでの20年にわたるオープン教育への貢献と先進的な取り組みが、複数のメディアで一斉に報道され注目を集めました。
-  - [名大の授業](https://ocw.nagoya-u.jp/milestones/)
+* **12月** 名古屋大学のオープンコースウェア「[名大の授業](https://ocw.nagoya-u.jp/)」が20周年を迎え、学生主導による「お薦め・関連講義表示機能」の実装などプラットフォームを拡張。これまでの20年にわたるオープン教育への貢献と先進的な取り組みが、複数のメディアで一斉に報道され注目を集めました。
+  - [「名⼤の授業」20周年 特設ページ](https://ocw.nagoya-u.jp/milestones/)
   - [名古屋大学のオープンコースウェア（OCW）サイト「名大の授業」が開設20周年 ― 950以上の講義を無償公開、特設ページも](https://news.infoseek.co.jp/article/digitalprplatform_131927/)
   <!-- - [名古屋大学のオープンコースウェア（OCW）サイト「名大の授業」が開設20周年 ― 950以上の講義を無償公開、特設ページも](https://www.mapion.co.jp/news/release/dgpr131927/) -->
 * **10月** OEG Connectにて開催された国際オンラインライブセッション「[OEGlobal Tour 2025](https://connect.oeglobal.org/t/live-session-details-for-day-1/8053)」のDay 1（中東・アジア・オセアニア地域セクション）に、重田代表幹事（OEJ Chair）、山里幹事（OEG理事）、竹村先生（大阪大学）がパネリストとして登壇。地域におけるオープンエデュケーションの意義や日本での取り組みについて議論を交わし、国際連携を深めました。
