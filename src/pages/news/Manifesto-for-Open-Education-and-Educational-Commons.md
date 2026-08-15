@@ -91,3 +91,10 @@ AIの利用は以下のとおりです：
 ## 引用方法
 
 de Coëtlogon, P., Tchiyak Fanmoe, J., Villeneuve, N., Dube, M., Laroussi, M., Cheniti-Belcadhi, L., Berrada, K., Shlaka, S., Pablo-Escobar, J.-M. & Grasset, L. (2026). *Manifeste pour l'éducation ouverte et les communs éducatifs*. Zenodo. https://doi.org/10.5281/zenodo.21413638
+
+<!-- ## 原文
+
+フランス語（原文）: https://docs.google.com/document/d/1yWHsOYxCl5iKuXgxFToAN9N339lU0f4fwgSdIRgUEF4/edit?tab=t.0
+
+英語（翻訳版）: https://docs.google.com/document/d/1cTADNsWQE2OK5cKlkBBP03BjUoKNhTAZkDx9KO3nGSM/edit?tab=t.0 -->
+
