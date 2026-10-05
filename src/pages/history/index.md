@@ -86,6 +86,9 @@ tags:
   [京都大学高等教育研究開発推進センターの廃止について](http://www.highedu.kyoto-u.ac.jp/news/news-1663/)
 * **7月25日**：2021年度および2022年度の総会をオンラインで開催。
 
+### 2019年
+* JOCW から Open Education Japan （OE Japan）へ
+
 ### 2014年〜2018年（JOCWからOEJへの転換と発展）
 * **2018年9月10日**：2018年度JOCW国際ワークショップを企画。米国College of the Canyonsの学部長であり、Open Education Consortium前プレジデントのJames Glapa-Grossklag氏を招き、「米国におけるオープンエデュケーションおよびOpen Textbookの普及について」をテーマに開催を予定していたが、北海道胆振東部地震の影響によりやむなく中止の判断となる。
   - [James Glapa-Grossklag氏 プロフィール](https://www.linkedin.com/in/james-glapa-grossklag/)
