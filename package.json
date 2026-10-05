@@ -43,7 +43,7 @@
     "develop": "npm run clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "package update w/o ncu -u": "rm -rf node_modules yarn.lock package.lock && npm install && npm run build",
-    "npm package update": "ncu -u && rm -rf node_modules yarn.lock package.lock && npm install && npm run build"
+    "npm package update": "ncu -u -x react,react-dom && rm -rf node_modules yarn.lock package.lock && npm install && npm run build"
   },
   "devDependencies": {
     "prettier": "^3.9.6"
