@@ -24,12 +24,12 @@
     "lodash": "^4.18.1",
     "lodash-webpack-plugin": "^0.11.6",
     "prop-types": "^15.8.1",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
     "react-helmet": "^6.1.0",
-    "sass": "^1.105.1",
+    "sass": "^1.105.2",
     "sass-loader": "^17.0.1",
-    "uuid": "^14.0.2"
+    "uuid": "^14.0.3"
   },
   "keywords": [
     "gatsby"
@@ -42,11 +42,11 @@
     "build": "gatsby clean && gatsby build",
     "develop": "npm run clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "package update w/o ncu -u": "rm -rf node_modules yarn.lock package.lock && npm install && npm run build",
-    "npm package update": "ncu -u -x react,react-dom && rm -rf node_modules yarn.lock package.lock && npm install && npm run build"
+    "package update w/o react,react-dom": "ncu -u -x react,react-dom && rm -rf node_modules yarn.lock package.lock && npm install && npm run build",
+    "npm package update": "ncu -u && rm -rf node_modules yarn.lock package.lock && npm install && npm run build"
   },
   "devDependencies": {
-    "prettier": "^3.9.9"
+    "prettier": "^3.9.10"
   },
   "engines": {
     "node": ">= 20.18.0"
