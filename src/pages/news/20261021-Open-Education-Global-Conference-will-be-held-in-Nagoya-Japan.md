@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Open Education Global Conference 2028、名古屋開催が決定！
-date: 2026-10-21T10:00:00.000+09:00
+date: 2026-10-21T11:00:00.000+09:00
 featuredpost: true
 featuredimage: /img/oe-japan-logo.png
 description: Open Education Global Conference 2028の名古屋開催が決定！MITで開催されたOEGlobal Conference 2026において正式発表されました。2028年11月22～24日、名古屋国際会議場で開催されます。

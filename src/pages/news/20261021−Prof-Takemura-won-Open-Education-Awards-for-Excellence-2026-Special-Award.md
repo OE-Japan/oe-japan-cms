@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 竹村治雄先生がOpen Education Awards for Excellence 2026 Special Awardを受賞！
-date: 2026-10-21T10:00:00.000+09:00
+date: 2026-10-21T10:10:00.000+09:00
 featuredpost: true
 featuredimage: /img/oe-japan-logo.png
 description: 日本のオープンエデュケーションを長年牽引してきた竹村治雄先生（教育テック大学院大学 学長）が、Open Education Awards for Excellence 2026のSpecial Awardを受賞されました。
